@@ -1,0 +1,1834 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+ABOUT_TEXTX	resource.h	6;"	d
+ALLOC_PPAGE	Page.c	38;"	d	file:
+AbbrevDeletes	Map.c	/^INT    AbbrevDeletes = 0;$/;"	v
+About	WinVi.c	/^VOID About(HWND hwndParent)$/;"	f
+AboutCallback	WinVi.c	/^BOOL CALLBACK AboutCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+AboutLogFont	WinVi.c	/^LOGFONT AboutLogFont = {$/;"	v
+AbsByte	ToolBar.c	/^INT AbsByte(INT where)$/;"	f
+AccessTime	Page.c	/^ULONG	   AccessTime;$/;"	v
+ActButton	ToolBar.c	/^INT	  ActButton = -1;$/;"	v
+ActiveRow	TabCtrl.c	/^static INT	 CurrentLabel, Base = 10, ActiveRow, MaxRow = 0, RowHeight = 10;$/;"	v	file:
+AddAllProfileNames	Profile.c	/^VOID AddAllProfileNames(HWND hwndCombobox)$/;"	f
+AddToFileList	Profile.c	/^VOID AddToFileList(PCWSTR FileName)$/;"	f
+AdditionalNullByte	ToolBar.c	/^BOOL AdditionalNullByte = FALSE;$/;"	v
+AdjustWindowParts	Paint.c	/^void AdjustWindowParts(INT OldBottom, INT NewBottom)$/;"	f
+Advance	Page.c	/^ULONG Advance(PPOSITION Pos, ULONG Amount)$/;"	f
+AdvanceAndByte	Page.c	/^INT AdvanceAndByte(PPOSITION Pos)$/;"	f
+AdvanceAndChar	Page.c	/^INT AdvanceAndChar(PPOSITION Pos)$/;"	f
+AdvanceToCurr	Input.c	/^void AdvanceToCurr(PPOSITION Pos, \/*INT Line,*\/ INT Flags)$/;"	f
+AllocPageMem	Page.c	/^BOOL AllocPageMem(LPPAGE Page)$/;"	f
+AllocStringA	WinVi.c	/^BOOL AllocStringA(LPSTR *Destination, LPCSTR Source)$/;"	f
+AllocStringW	WinVi.c	/^BOOL AllocStringW(PWSTR *Destination, PCWSTR Source)$/;"	f
+AllowCaseConvert	Search.c	/^			WORD  AllowCaseConvert[6]; \/*(sizeof(String)-1)\/(8*sizeof(WORD))+1*\/$/;"	m	struct:tagSEARCHPART::<anonymous>::<anonymous>	file:
+AlreadyInsertedLruFiles	Profile.c	/^static INT  AlreadyInsertedLruFiles;$/;"	v	file:
+AltFileCset	File.c	/^UINT		  AltFileCset;$/;"	v
+AltFileName	File.c	/^WCHAR		  AltFileName[260];$/;"	v
+AltFilePos	File.c	/^LONG		  AltFilePos;$/;"	v
+AnsiCodePage	Font.c	/^INT OemCodePage = CP_OEMCP, AnsiCodePage = CP_ACP;$/;"	v
+AnyMask	Search.c	/^MASK NoneMask = {{0}}, AnyMask = {$/;"	v
+AppendMenuItemW	PathExp.c	/^static void AppendMenuItemW(INT MenuGroup, PWSTR pString)$/;"	f	file:
+AppendSingle	FileList.c	/^static int AppendSingle(PCWSTR lp1, PCWSTR lp2, int nLen)$/;"	f	file:
+AppendToFileList	FileList.c	/^INT AppendToFileList(PCWSTR pwFile, INT nLen, INT Flags)$/;"	f
+ApplName	WinVi.c	/^PCSTR  ApplName  = "WinVi";$/;"	v
+ApplNameW	WinVi.c	/^PCWSTR ApplNameW = L"WinVi";$/;"	v
+ArgList	WinVi.c	/^PCWSTR ArgList, CurrArg;$/;"	v
+Args	Command.c	/^PWSTR		 Args;$/;"	v
+ArgsCallback	FileList.c	/^BOOL CALLBACK ArgsCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+ArgsCmd	FileList.c	/^void ArgsCmd(void)$/;"	f
+AskForSave	File.c	/^BOOL AskForSave(HWND hwndParent, WORD Flags)$/;"	f
+AssertBuf	Assert.c	/^static char AssertBuf[160];$/;"	v	file:
+AssertionFail	Assert.c	/^void AssertionFail(char *Expression, char *FileName, int Line)$/;"	f
+AutoIndentFlag	Externs.c	/^BOOL	 ReadOnlyFlag, AutoRestoreFlag, AutoIndentFlag, AutoWriteFlag;$/;"	v
+AutoPermanent	Settings.c	/^BOOL AutoPermanent;$/;"	v
+AutoRestoreFlag	Externs.c	/^BOOL	 ReadOnlyFlag, AutoRestoreFlag, AutoIndentFlag, AutoWriteFlag;$/;"	v
+AutoSubclass	Ctl3d.c	/^static FARPROC AutoSubclass, Enabled, ColorChange, Unregister;$/;"	v	file:
+AutoWriteFlag	Externs.c	/^BOOL	 ReadOnlyFlag, AutoRestoreFlag, AutoIndentFlag, AutoWriteFlag;$/;"	v
+AveCharWidth	Paint.c	/^INT	  AveCharWidth;$/;"	v
+BackgroundColor	Externs.c	/^COLORREF TextColor, BackgroundColor;$/;"	v
+Base	TabCtrl.c	/^static INT	 CurrentLabel, Base = 10, ActiveRow, MaxRow = 0, RowHeight = 10;$/;"	v	file:
+BeginOfFile	Page.c	/^void BeginOfFile(PPOSITION Pos)$/;"	f
+BinaryFormat	Clipbrd.c	/^CHAR BinaryFormat[] = "WinVi bin %lu:";$/;"	v
+BinaryPart	Clipbrd.c	/^CHAR BinaryPart[24];$/;"	v
+BitmapFilename	Externs.c	/^WCHAR	 BitmapFilename[260];$/;"	v
+BkgndBrush	Paint.c	/^HBRUSH	   SelBkgndBrush, BkgndBrush;$/;"	v
+BlackPen	Paint.c	/^HPEN	   BlackPen;$/;"	v
+BracketCommandChar	Input.c	/^INT BracketCommandChar;$/;"	v
+Brackets	File.c	/^PWSTR		  Brackets = L"\\253%s\\273";$/;"	v
+BreakLineFlag	Externs.c	/^BOOL	 MouseActivated, BreakLineFlag, ShowMatchFlag;$/;"	v
+Buf	Paint.c	/^static WCHAR Buf[160];$/;"	v	file:
+Buf	Print.c	/^static WCHAR DecimalPoint[2], Buf[300];$/;"	v	file:
+Buf	WinVi.h	/^	WCHAR				  Buf[40];$/;"	m	struct:tagREPLIST
+BufCat	Assert.c	/^static void BufCat(LPSTR p)$/;"	f	file:
+BufW	Print.c	/^WCHAR BufW[300];$/;"	v
+Buff	Profile.c	/^static CHAR Buff[264];$/;"	v	file:
+Buffer	File.c	/^CHAR		  Buffer[300];$/;"	v
+Buffer	Input.c	/^	WCHAR			   Buffer[128];$/;"	m	struct:tagREDO	file:
+BufferW	File.c	/^WCHAR		  BufferW[300];$/;"	v
+BuildMatchList	Search.c	/^PWSTR BuildMatchList(PWSTR Cmd, INT Delimiter, INT *ErrNo)$/;"	f
+BuildReplaceString	Search.c	/^BOOL BuildReplaceString$/;"	f
+Buttons	ToolBar.c	/^HBITMAP Buttons;$/;"	v
+ByteAndAdvance	Page.c	/^INT ByteAndAdvance(PPOSITION Pos)$/;"	f
+ByteAt	Page.c	/^INT ByteAt(PPOSITION Pos)$/;"	f
+ByteCount	Page.h	/^	ULONG	 ByteCount;$/;"	m
+CARET_DEBUG	Input.c	66;"	d	file:
+CARET_TYPE	WinVi.h	/^			  INSERT_CARET, REPLACE_CARET, REPLACE_CARET_DOUBLEHEX} CARET_TYPE;$/;"	t
+CCM_GETVERSION	Settings.c	881;"	d	file:
+CFlags	CharFlags.c	/^static BYTE CFlags[128] = {$/;"	v	file:
+CHAR	WinVi.h	62;"	d
+CHECK_CRLF	Page.h	33;"	d
+CHOOSEFONTPARAM	Settings.c	/^} CHOOSEFONTPARAM, FAR *LPCHOOSEFONTPARAM;$/;"	t	file:
+CNLB_LASTWASCR	Page.h	72;"	d
+CNLB_LASTWASNUL	Page.h	73;"	d
+CNLB_UTF8_1FOLLOWING	Page.h	74;"	d
+CNLB_UTF8_2FOLLOWING	Page.h	75;"	d
+CNLB_UTF8_3FOLLOWING	Page.h	76;"	d
+CNLB_UTF8_COUNT	Page.h	79;"	d
+CNLB_UTF8_INCREMENT	Page.h	78;"	d
+CNLB_UTF8_MISMATCH	Page.h	77;"	d
+COLUMN	WinVi.h	/^} COLUMN, *PCOLUMN;$/;"	t
+COMMAND	WinVi.h	39;"	d
+COMMAND	WinVi.h	59;"	d
+COMMAND_CARET	WinVi.h	/^typedef enum {COMMAND_CARET, COMMAND_CARET_EMPTYLINE, COMMAND_CARET_DOUBLEHEX,$/;"	e
+COMMAND_CARET_DOUBLEHEX	WinVi.h	/^typedef enum {COMMAND_CARET, COMMAND_CARET_EMPTYLINE, COMMAND_CARET_DOUBLEHEX,$/;"	e
+COMMAND_CARET_EMPTYLINE	WinVi.h	/^typedef enum {COMMAND_CARET, COMMAND_CARET_EMPTYLINE, COMMAND_CARET_DOUBLEHEX,$/;"	e
+CP_UTF8	WinVi.h	82;"	d
+CS_ANSI	WinVi.h	133;"	d
+CS_AUTOENCODING	WinVi.h	132;"	d
+CS_EBCDIC	WinVi.h	138;"	d
+CS_OEM	WinVi.h	134;"	d
+CS_UTF16BE	WinVi.h	137;"	d
+CS_UTF16LE	WinVi.h	136;"	d
+CS_UTF8	WinVi.h	135;"	d
+CTRL	WinVi.h	90;"	d
+C_BOM	Page.h	83;"	d
+C_CRLF	Page.h	87;"	d
+C_EOF	Page.h	84;"	d
+C_ERROR	Page.h	85;"	d
+C_MIN	Page.h	88;"	d
+C_UNDEF	Page.h	86;"	d
+Callback	Settings.c	/^	BOOL	(*Callback)(HWND,UINT,WPARAM,LPARAM);$/;"	m	struct:tagTABSHEET	file:
+CapsLock	Externs.c	/^WCHAR	 NumLock[10], CapsLock[10];$/;"	v
+CaretActive	Externs.c	/^BOOL	 IsAltFile, Unsafe, CommandWithExclamation, CaretActive;$/;"	v
+CaretHeight	Paint.c	/^INT		   CaretY, CaretWidth, CaretHeight;$/;"	v
+CaretProps	Input.c	/^signed char	 CaretProps[20];$/;"	v
+CaretType	Paint.c	/^CARET_TYPE CaretType;$/;"	v
+CaretType	WinVi.h	/^CARET_TYPE		CaretType;$/;"	v
+CaretWidth	Paint.c	/^INT		   CaretY, CaretWidth, CaretHeight;$/;"	v
+CaretX	Paint.c	/^LONG	   CaretX;$/;"	v
+CaretY	Paint.c	/^INT		   CaretY, CaretWidth, CaretHeight;$/;"	v
+CaseConvert	Input.c	/^BYTE CaseConvert[256] = {	\/*initial values for Western ANSI characters*\/$/;"	v
+CdCmd	Command.c	/^static BOOL CdCmd(PWSTR Dir)$/;"	f	file:
+Centered	Status.h	/^	BOOL  Centered;$/;"	m
+ChangeCase	Input.c	/^void ChangeCase(LONG Repeat)$/;"	f
+ChangeLanguage	WinVi.c	/^VOID ChangeLanguage(UINT NewLanguage)$/;"	f
+Char	Search.c	/^			CHAR     Char;			   \/*one of: '(', '|', ')', '<', '>'*\/$/;"	m	struct:tagSEARCHPART::<anonymous>::<anonymous>	file:
+CharAndAdvance	Page.c	/^INT CharAndAdvance(PPOSITION Pos)$/;"	f
+CharAt	Page.c	/^INT CharAt(PPOSITION Pos)$/;"	f
+CharFlags	CharFlags.c	/^BYTE CharFlags(INT c)$/;"	f
+CharSet	Externs.c	/^UINT	 CharSet;		\/*0=ANSI, 1=PC (OEM), 2=EBCDIC*\/$/;"	v
+CharSetToUnicode	Search.c	/^WCHAR CharSetToUnicode(WCHAR c)$/;"	f
+CharSize	InsDel.c	/^INT CharSize(INT c)$/;"	f
+CheckBkwd	Search.c	/^BOOL CheckBkwd(PPOSITION Pos, PSEARCHPART Srch)$/;"	f
+CheckClipboard	ToolBar.c	/^void CheckClipboard(void)$/;"	f
+CheckDefButton	Settings.c	/^VOID CheckDefButton(VOID)$/;"	f
+CheckForUndoneToRelease	Undo.c	/^void CheckForUndoneToRelease(BOOL EnterNewOp)$/;"	f
+CheckFwd	Search.c	/^BOOL CheckFwd(PPOSITION Pos, PSEARCHPART Srch)$/;"	f
+CheckGlyphs	Font.c	/^static BOOL CheckGlyphs(HDC hDC, BYTE GlyphsAvail[32])$/;"	f	file:
+CheckInterrupt	Search.c	/^BOOL CheckInterrupt(void) {$/;"	f
+CheckParenPairs	Search.c	/^BOOL CheckParenPairs(VOID)$/;"	f
+CheckReadOnly	File.c	/^void CheckReadOnly(void)$/;"	f
+CheckSize	Bmp.c	/^static BOOL CheckSize(UINT Size1, LONG Size2) {$/;"	f	file:
+CheckToolButtonCaptureRelease	ToolBar.c	/^static BOOL CheckToolButtonCaptureRelease(UINT uMsg)$/;"	f	file:
+CheckUtf16Lsb	Input.c	/^void CheckUtf16Lsb(void)$/;"	f
+ChooseFontCustData	Settings.c	/^LPARAM ChooseFontCustData(INT FontTitle)$/;"	f
+ChooseFontHook	Settings.c	/^UINT CALLBACK ChooseFontHook(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+ChooseFontParam	Settings.c	/^CHOOSEFONTPARAM ChooseFontParam;$/;"	v
+ClassName	WinVi.c	/^PCWSTR ClassName = L"Ramo's WinVi";$/;"	v
+ClearFileList	FileList.c	/^void ClearFileList(void)$/;"	f
+ClientRect	WinVi.c	/^RECT   ClientRect, WholeWindow;$/;"	v
+ClipboardCopy	Clipbrd.c	/^BOOL ClipboardCopy(void)$/;"	f
+ClipboardCut	Clipbrd.c	/^BOOL ClipboardCut(void)$/;"	f
+ClipboardPaste	Clipbrd.c	/^BOOL ClipboardPaste(void)$/;"	f
+CmdFirstChar	Externs.c	/^UINT	 Interrupted, CmdFirstChar, Number;$/;"	v
+CmdGotFirstChar	WinVi.h	/^typedef enum {CommandMode, CmdGotFirstChar, GetDblQuoteChar, PositionTf,$/;"	e
+CmdMask	Command.c	/^INT 		 CmdMask;$/;"	v
+Color	Status.h	/^	COLORREF Color;$/;"	m	struct:tagSTATUSSTYLE
+ColorChange	Ctl3d.c	/^static FARPROC AutoSubclass, Enabled, ColorChange, Unregister;$/;"	v	file:
+ColorProc	Colors.c	/^LRESULT CALLBACK ColorProc(HWND hWnd, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+ColorRadioButton	Colors.c	/^static VOID ColorRadioButton(HWND hParentDlg, UINT uColor, BOOL WithFocus)$/;"	f	file:
+Colors	Colors.c	/^COLORREF Colors[0x22] = {$/;"	v
+ColorsCallback	Colors.c	/^BOOL ColorsCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+Columns	PathExp.c	/^static int Columns, MaxLen;$/;"	v	file:
+ColumnsVar	Command.c	/^INT LinesVar, ColumnsVar;$/;"	v
+CombinePath	Tags.c	/^static VOID CombinePath(PWSTR Buffer, INT Size)$/;"	f	file:
+CommandBuf	Paint.c	/^WCHAR CommandBuf[1024];$/;"	v
+CommandDone	Paint.c	/^void CommandDone(BOOL Escape)$/;"	f
+CommandEdit	Paint.c	/^void CommandEdit(UINT StartChar)$/;"	f
+CommandExec	Command.c	/^BOOL CommandExec(PWSTR Cmd)$/;"	f
+CommandLineDone	Input.c	/^void CommandLineDone(BOOL Escaped, PWSTR Cmd)$/;"	f
+CommandMode	WinVi.h	/^typedef enum {CommandMode, CmdGotFirstChar, GetDblQuoteChar, PositionTf,$/;"	e
+CommandWithExclamation	Externs.c	/^BOOL	 IsAltFile, Unsafe, CommandWithExclamation, CaretActive;$/;"	v
+Commands	PathExp.c	/^} *pCmd, Commands[] = {$/;"	v	file:
+Compare	Command.c	/^PWSTR Compare(PWSTR Cmd, PWSTR CompareWith, INT MinLength, INT CheckMask)$/;"	f
+ComparePos	Paint.c	/^INT ComparePos(PPOSITION First, PPOSITION Second)$/;"	f
+Confirm	Misc.c	/^BOOL Confirm(HWND hParent, INT nQuestion, ...)$/;"	f
+ConfirmAbort	WinVi.h	/^typedef enum {ConfirmReplace, ConfirmSkip, ConfirmAll, ConfirmAbort}$/;"	e
+ConfirmAll	WinVi.h	/^typedef enum {ConfirmReplace, ConfirmSkip, ConfirmAll, ConfirmAbort}$/;"	e
+ConfirmReplace	WinVi.h	/^typedef enum {ConfirmReplace, ConfirmSkip, ConfirmAll, ConfirmAbort}$/;"	e
+ConfirmSkip	WinVi.h	/^typedef enum {ConfirmReplace, ConfirmSkip, ConfirmAll, ConfirmAbort}$/;"	e
+ConfirmSubstitute	SrchDlg.c	/^SEARCHCONFIRMRESULT ConfirmSubstitute(void)$/;"	f
+ConsoleAttached	Exec.c	/^static BOOL	ConsoleAttached = FALSE;$/;"	v	file:
+ContextMenu	WinVi.c	/^VOID ContextMenu(HWND hWnd, INT xPos, INT yPos)$/;"	f
+ContinuedInNextSP	Search.c	/^			BOOL  ContinuedInNextSP;   \/*same set cont'd in next SEARCHPART*\/$/;"	m	struct:tagSEARCHPART::<anonymous>::<anonymous>	file:
+ContinuedInPrevSP	Search.c	/^			BOOL  ContinuedInPrevSP;   \/*same set cont'd in prev SEARCHPART*\/$/;"	m	struct:tagSEARCHPART::<anonymous>::<anonymous>	file:
+ConvCSetChoice	Search.c	/^			WORD  ConvCSetChoice[(NUM_RANGES + 15) \/ 16];$/;"	m	struct:tagSEARCHPART::<anonymous>::<anonymous>	file:
+ConvertCSet	Search.c	/^			WORD  ConvertCSet[6];	   \/*(sizeof(String)-1)\/(8*sizeof(WORD))+1*\/$/;"	m	struct:tagSEARCHPART::<anonymous>::<anonymous>	file:
+CorrectLineInfo	Page.c	/^void CorrectLineInfo(LPPAGE OldPage, UINT OldInx, LPPAGE NewPage, UINT NewInx,$/;"	f
+CountBytes	Page.c	/^ULONG CountBytes(PPOSITION Pos)$/;"	f
+CountLines	Page.c	/^ULONG CountLines(PPOSITION Pos)$/;"	f
+CountNewlinesInBuf	Page.c	/^INT CountNewlinesInBuf(LPBYTE Buf, INT Len, LONG NewLineCnt[9], DWORD *pFlags)$/;"	f
+CountedDefaultNl	File.c	/^INT		   CountedDefaultNl = 1;	\/*1=CR\/LF, 2=LF, 3=CR*\/$/;"	v
+CrLfAttribute	File.c	/^CONST WCHAR	  *CrLfAttribute = L"";$/;"	v
+CreateChoice	Search.c	/^PSEARCHPART CreateChoice(void)$/;"	f
+CreateConsole	Exec.c	/^VOID CreateConsole(VOID)$/;"	f
+CreateTmpFile	Page.c	/^BOOL CreateTmpFile(void)$/;"	f
+CrsrLines	Paint.c	/^INT		   CrsrLines;	\/*number of screen lines with positionable cursor*\/$/;"	v
+Ctl3dAutoSubclass	Ctl3d.c	/^BOOL WINAPI Ctl3dAutoSubclass(HANDLE hInst)$/;"	f
+Ctl3dColorChange	Ctl3d.c	/^BOOL WINAPI Ctl3dColorChange(void)$/;"	f
+Ctl3dDll	Ctl3d.c	/^static HINSTANCE Ctl3dDll;$/;"	v	file:
+Ctl3dEnabled	Ctl3d.c	/^BOOL WINAPI Ctl3dEnabled(void)$/;"	f
+Ctl3dRegister	Ctl3d.c	/^BOOL WINAPI Ctl3dRegister(HANDLE hInst)$/;"	f
+Ctl3dUnregister	Ctl3d.c	/^BOOL WINAPI Ctl3dUnregister(HANDLE hInst)$/;"	f
+CurrArg	WinVi.c	/^PCWSTR ArgList, CurrArg;$/;"	v
+CurrBmpInx	Colors.c	/^static INT  CurrBmpInx;$/;"	v	file:
+CurrCol	Externs.c	/^COLUMN	 CurrCol;		\/*aspired pixel position in logical line*\/$/;"	v
+CurrColor	Colors.c	/^UINT	 CurrColor;$/;"	v
+CurrColorHwnd	Colors.c	/^static HWND CurrFrame, CurrColorHwnd;$/;"	v	file:
+CurrColumn	Externs.c	/^ULONG	 CurrColumn;	\/*displayed character offset within line (for status)*\/$/;"	v
+CurrFile	Externs.c	/^PCWSTR	 CurrFile;$/;"	v
+CurrFileName	File.c	/^static WCHAR  CurrFileName[262] = L".\\\\";$/;"	v	file:
+CurrFrame	Colors.c	/^static HWND CurrFrame, CurrColorHwnd;$/;"	v	file:
+CurrLine	Externs.c	/^INT		 CurrX, CurrLine;$/;"	v
+CurrPos	Externs.c	/^POSITION ScreenStart, CurrPos;$/;"	v
+CurrProfile	Settings.c	/^CHAR           CurrProfile[64]	   = "(default)";$/;"	v
+CurrTab	Settings.c	/^INT CurrTab = 0, PrintTab = TAB_PRINT;$/;"	v
+CurrX	Externs.c	/^INT		 CurrX, CurrLine;$/;"	v
+CurrentLabel	TabCtrl.c	/^static INT	 CurrentLabel, Base = 10, ActiveRow, MaxRow = 0, RowHeight = 10;$/;"	v	file:
+CursorButton	ToolBar.c	/^INT CursorButton(LPARAM lPar)$/;"	f
+CustFilter	File.c	/^static WCHAR  CustFilter[262] = L"\\0*.*\\0";$/;"	v	file:
+CustomColors	Colors.c	/^COLORREF CustomColors[16] = {0};$/;"	v
+DM_REPOSITION	SrchDlg.c	30;"	d	file:
+DOCINFOW	Print.c	/^} DOCINFOW;$/;"	t	file:
+DblQuoteChar	Input.c	/^INT DblQuoteChar;$/;"	v
+DebugMessages	Profile.c	/^BOOL DebugMessages(VOID)$/;"	f
+DecimalPoint	Print.c	/^static WCHAR DecimalPoint[2], Buf[300];$/;"	v	file:
+DefaultAvail	Font.c	/^BYTE DefaultAvail[32] = {  0,   0,   0,   0, 255, 255, 255, 255,$/;"	v
+DefaultHelpURL	Profile.c	/^PSTR  DefaultHelpURL = "file:\/\/%EXEPATH\/WinVi-%LANG.htm#";$/;"	v
+DefaultInsFlag	Externs.c	/^BOOL	 IgnoreCaseFlag, WrapScanFlag, TerseFlag, DefaultInsFlag;$/;"	v
+DefaultNewLine	Paint.c	/^INT DefaultNewLine = C_CRLF;$/;"	v
+DefaultOkButton	Map.c	/^VOID DefaultOkButton(HWND hDlg)$/;"	f
+DefaultProfile	Settings.c	/^CHAR const	   DefaultProfile[]	   = "(default)";$/;"	v
+DefaultTmpFlag	Externs.c	/^BOOL	 DefaultTmpFlag, QuitIfMoreFlag, WrapPosFlag;$/;"	v
+DelFill	Undo.c	/^	ULONG			DelFill;$/;"	m	struct:tagUNDO	file:
+DelMem	Undo.c	/^	HGLOBAL			DelMem;$/;"	m	struct:tagUNDO	file:
+DeleteChar	InsDel.c	/^BOOL DeleteChar(void) {$/;"	f
+DeleteCmd	Command.c	/^static void DeleteCmd(LONG StartLine, LONG EndLine, PWSTR Args)$/;"	f	file:
+DeleteEol	InsDel.c	/^void DeleteEol(BOOL RedrawCurrline) {$/;"	f
+DeleteForward	InsDel.c	/^void DeleteForward(UINT Number) {$/;"	f
+DeleteKey	Input.c	/^static BOOL DeleteKey(WORD Flags)$/;"	f	file:
+DeleteSelected	InsDel.c	/^void DeleteSelected(INT Flags) {$/;"	f
+DenyAbbrev	Map.c	/^BOOL   DenyAbbrev	 = FALSE, PrevDenyAbbrev;$/;"	v
+Dialog	Settings.c	/^	INT		Dialog, Flags, FirstControl, LastControl;$/;"	m	struct:tagTABSHEET	file:
+Disable	ToolBar.c	/^void Disable(WORD Flags)$/;"	f
+DisableMenuItems	ToolBar.c	/^void DisableMenuItems(INT MenuIndex, HMENU hMenu)$/;"	f
+DisableUndo	Undo.c	/^void DisableUndo(void)$/;"	f
+Disabled	Externs.c	/^INT		 MaxScroll, Disabled;$/;"	v
+Disabled	ToolBar.c	/^	BOOL  Pushed, Locked, Disabled;$/;"	m	file:
+DisabledCount	ToolBar.c	/^static INT DisabledCount = 0;$/;"	v	file:
+DiscardOutput	Exec.c	/^static BOOL				   DiscardOutput;$/;"	v	file:
+DispLine	Paint.c	/^INT 		 DispLine = -1, TabStop = 8, RightOffset = 0;$/;"	v
+DisplayBuffer	Search.c	/^	WCHAR		DisplayBuffer[1];$/;"	m	struct:tagSEARCH_DESCR	file:
+DisplayFont	Settings.c	/^static VOID DisplayFont(PLOGFONT pLogFont, HFONT Font, HWND hDlg,$/;"	f	file:
+DisplaySettingsCallback	WinVi.c	/^BOOL DisplaySettingsCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+DlgBkBrush	Paint.c	/^HBRUSH	   DlgBkBrush;$/;"	v
+DlgLitePen	Paint.c	/^HPEN	   DlgLitePen;$/;"	v
+DlgRect	Settings.c	/^RECT DlgRect = {-10000};$/;"	v
+DlgResult	Externs.c	/^BOOL	 DlgResult;$/;"	v
+DoCompoundCommand	Input.c	/^BOOL DoCompoundCommand(UINT Multiplier, WPARAM Character, WPARAM EnteredChar,$/;"	f
+DoSequence	Map.c	/^LPWORD DoSequence	 = NULL;$/;"	v
+Done	Exec.c	/^static volatile BOOL	   Done, GotFromPipe, WaitingForPaint;$/;"	v	file:
+DoubleColumn	Print.c	/^BOOL		OverrideOrientation, DoubleColumn;$/;"	v
+DrivePathUNC	Settings.c	/^CHAR DrivePathUNC[260], Extensions[80];$/;"	v
+DupMapping	Map.c	/^PMAP DupMapping(PMAP m)$/;"	f
+ENG_OFFSET	resource.h	247;"	d
+ERRORVALUE	File.c	1474;"	d	file:
+ERRORVALUE	File.c	1476;"	d	file:
+ERROR_NOT_ENOUGH_MEMORY	Paint.c	1875;"	d	file:
+ETDT_ENABLE	Settings.c	50;"	d	file:
+ETDT_ENABLETAB	Settings.c	52;"	d	file:
+ETDT_USETABTEXTURE	Settings.c	51;"	d	file:
+EXCLUDE	Search.c	44;"	d	file:
+EbcdicConvert	Clipbrd.c	/^static VOID EbcdicConvert(char huge *dst, LPSTR src, INT n)$/;"	f	file:
+EditCmd	File.c	/^BOOL EditCmd(PCWSTR FName)$/;"	f
+EditColor	Colors.c	/^static VOID EditColor(UINT uColor)$/;"	f	file:
+EditSettingsCallback	WinVi.c	/^BOOL EditSettingsCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+Enable	ToolBar.c	/^void Enable(void)$/;"	f
+EnableApply	Settings.c	/^void EnableApply(void)$/;"	f
+EnableControls	SrchDlg.c	/^void EnableControls(HWND hDlg, BOOL Enable)$/;"	f
+EnableProfileControls	Settings.c	/^VOID EnableProfileControls(HWND hDlg, BOOL Enable)$/;"	f
+EnableToolButton	ToolBar.c	/^void EnableToolButton(INT Which, BOOL Enable)$/;"	f
+EnableUndo	Undo.c	/^static void EnableUndo(void)$/;"	f	file:
+Enabled	Ctl3d.c	/^static FARPROC AutoSubclass, Enabled, ColorChange, Unregister;$/;"	v	file:
+EndMatch	Search.c	/^POSITION StartPos, EndMatch;$/;"	v
+EndOfFile	Page.c	/^void EndOfFile(PPOSITION Pos)$/;"	f
+EnforcePainting	Paint.c	/^static BOOL EnforcePainting;$/;"	v	file:
+EnterChoice	Search.c	/^PWSTR EnterChoice(PWSTR Cmd)$/;"	f
+EnterDeleteForUndo	Undo.c	/^BOOL EnterDeleteForUndo(PPOSITION Pos, ULONG Length, WORD Flags)$/;"	f
+EnterInsertForUndo	Undo.c	/^BOOL EnterInsertForUndo(PPOSITION Pos, ULONG Length)$/;"	f
+EnterMatch	Search.c	/^void EnterMatch(WCHAR Char, PWSTR Asterisk, UINT Flags)$/;"	f
+EnumNetRes	PathExp.c	/^static INT EnumNetRes(INT i, INT iMax, NETRESOURCEW *nr)$/;"	f	file:
+EnumServers	PathExp.c	/^static HANDLE EnumServers(PCWSTR Name, FIND_DATA *FindData)$/;"	f	file:
+EnumShares	PathExp.c	/^static HANDLE EnumShares(PWSTR Name, PWSTR NameSep, FIND_DATA *FindData)$/;"	f	file:
+EnumWindowsProc	InterCom.c	/^BOOL CALLBACK EnumWindowsProc(HWND hWnd, LPARAM lPar)$/;"	f
+EnvEntryMatches	Page.c	/^BOOL EnvEntryMatches(LPSTR e, PSTR m)$/;"	f
+EolColor	Profile.c	/^COLORREF EolColor	   = RGB(128,000,000);$/;"	v
+ErrBuf1	Misc.c	/^static WCHAR ErrBuf1[200], ErrBuf2[280];$/;"	v	file:
+ErrBuf2	Misc.c	/^static WCHAR ErrBuf1[200], ErrBuf2[280];$/;"	v	file:
+Error	Misc.c	/^void Error(INT StringNo, ...)$/;"	f
+ErrorBox	Misc.c	/^INT ErrorBox(INT Flags, INT StringNo, ...)$/;"	f
+ErrorFatal	Page.c	/^static CHAR		ErrorFatal[30], ErrorPleaseSave[60];$/;"	v	file:
+ErrorNoGlobalMem	Page.c	/^static CHAR		ErrorUseVirtual[170], ErrorNoGlobalMem[50];$/;"	v	file:
+ErrorPleaseSave	Page.c	/^static CHAR		ErrorFatal[30], ErrorPleaseSave[60];$/;"	v	file:
+ErrorTitle	Misc.c	/^WCHAR ErrorTitle[16] = {'\\0'};$/;"	v
+ErrorUseVirtual	Page.c	/^static CHAR		ErrorUseVirtual[170], ErrorNoGlobalMem[50];$/;"	v	file:
+EscapeInput	WinVi.c	/^BOOL		EscapeInput;$/;"	v
+ExecCmd	Command.c	/^static BOOL ExecCmd(PWSTR Args)$/;"	f	file:
+ExecError	Command.c	/^static INT	 ExecError;$/;"	v	file:
+ExecInput	Exec.c	/^VOID ExecInput(WPARAM Read, LPARAM pBuf)$/;"	f
+ExecInsertPos	Exec.c	/^POSITION	ExecInsertPos;$/;"	v
+ExecInterrupt	Exec.c	/^VOID ExecInterrupt(INT InterruptEvent)$/;"	f
+ExecPiped	Exec.c	/^BOOL ExecPiped(PWSTR Cmd, WORD Flags)$/;"	f
+ExecRunning	Exec.c	/^BOOL ExecRunning(VOID)$/;"	f
+Exiting	Command.c	/^BOOL MoreFilesWarned = FALSE, Exiting = FALSE;$/;"	v
+ExpandPath	PathExp.c	/^BOOL ExpandPath(HWND hwndEdit, WORD wFlags)$/;"	f
+ExpandRedraw	Paint.c	/^LONG ExpandRedraw, ShrinkRedraw;$/;"	v
+ExpandRepList	Search.c	/^PWCHAR ExpandRepList(PWCHAR Prev)$/;"	f
+ExpandSys32	Exec.c	/^PSTR ExpandSys32(PSTR Dllname)$/;"	f
+ExtendSelection	Paint.c	/^void ExtendSelection(void)$/;"	f
+Extensions	Settings.c	/^CHAR DrivePathUNC[260], Extensions[80];$/;"	v
+ExtractIdentifier	Tags.c	/^PWSTR ExtractIdentifier(PPOSITION pPos)$/;"	f
+FILELIST	FileList.c	/^} FILELIST, *PFILELIST;$/;"	t	file:
+FIND_CLOSE	PathExp.h	26;"	d
+FIND_CLOSE	PathExp.h	43;"	d
+FIND_DATA	PathExp.h	23;"	d
+FIND_DATA	PathExp.h	38;"	d
+FIND_FIRST	PathExp.h	24;"	d
+FIND_FIRST	PathExp.h	39;"	d
+FIND_NEXT	PathExp.h	25;"	d
+FIND_NEXT	PathExp.h	42;"	d
+FMT	WinVi.c	1338;"	d	file:
+FMT	WinVi.c	1341;"	d	file:
+FName	Tags.c	/^	WCHAR					FName[1];$/;"	m	struct:tagTAGSTACK	file:
+FOUND_NAME	PathExp.h	27;"	d
+FOUND_NAME	PathExp.h	44;"	d
+FRA_OFFSET	resource.h	249;"	d
+FaceBrush	Paint.c	/^HBRUSH	   FaceBrush;				\/*3d paint tools*\/$/;"	v
+Fail	Bmp.c	/^static BOOL		Init[2], Fail[2];$/;"	v	file:
+File32Error	File.c	/^static void File32Error(PCWSTR FName)$/;"	f	file:
+FileError	File.c	/^void FileError(PCWSTR FName, INT DosErrorCode, INT Range)$/;"	f
+FileExists	Colors.c	/^BOOL FileExists(PWSTR Filename)$/;"	f
+FileListCommand	Profile.c	/^VOID FileListCommand(INT Command)$/;"	f
+FileName	Externs.c	/^WCHAR	 FileName[260];$/;"	v
+FileName	FileList.c	/^	WCHAR			   FileName[1];$/;"	m	struct:tagFILELIST	file:
+FileNameBuf2	Command.c	/^WCHAR		 FileNameBuf2[260];	\/*used in [command.c]Compare:Substitute[#%],$/;"	v
+FileSettingsCallback	WinVi.c	/^BOOL FileSettingsCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+FileTitle	File.c	/^static WCHAR  FileTitle[260];$/;"	v	file:
+FilenameCmd	File.c	/^void FilenameCmd(PWSTR FName)$/;"	f
+FiletypeCallback	Settings.c	/^BOOL FiletypeCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+Fill	Page.h	/^	UINT		   Fill;				 \/*used amount of bytes in PageBuf	*\/$/;"	m	struct:tagPAGE
+Fill	Search.c	/^			INT	  Fill;				   \/*number of used Range[] entries*\/$/;"	m	struct:tagSEARCHPART::<anonymous>::<anonymous>	file:
+Fill	Tags.c	/^static INT Fill;$/;"	v	file:
+FillField	Print.c	/^void FillField(HWND hDlg, INT nCtl, INT Value)$/;"	f
+FinalKeyState	Map.c	/^WORD   FinalKeyState = 0;$/;"	v
+FindFileHandle	PathExp.c	/^static HANDLE FindFileHandle = INVALID_HANDLE_VALUE;$/;"	v	file:
+FindFirstFileW	PathExp.h	18;"	d
+FindMacroName	Map.c	/^INT FindMacroName(HWND ListBox, LPSTR Name)$/;"	f
+FindNextFileW	PathExp.h	19;"	d
+FindOrAppendToFileList	FileList.c	/^INT FindOrAppendToFileList(PCWSTR Fname)$/;"	f
+FindValidPosition	Input.c	/^void FindValidPosition(PPOSITION Pos, WORD Flags)$/;"	f
+FirstControl	Settings.c	/^	INT		Dialog, Flags, FirstControl, LastControl;$/;"	m	struct:tagTABSHEET	file:
+FirstLcase	Search.c	/^			WCHAR FirstUcase, FirstLcase;$/;"	m	struct:tagSEARCHPART::<anonymous>::<anonymous>	file:
+FirstMapping	Map.c	/^PMAP FirstMapping = NULL, NewMappings = NULL;$/;"	v
+FirstMatch	Search.c	/^	PSEARCHPART	FirstMatch, FirstString, LastMatch;$/;"	m	struct:tagSEARCH_DESCR	file:
+FirstMatch	Search.c	/^PSEARCHPART FirstMatch, FirstString, LastMatch;$/;"	v
+FirstPage	Externs.c	/^LPPAGE	 FirstPage, LastPage;$/;"	v
+FirstString	Search.c	/^	PSEARCHPART	FirstMatch, FirstString, LastMatch;$/;"	m	struct:tagSEARCH_DESCR	file:
+FirstString	Search.c	/^PSEARCHPART FirstMatch, FirstString, LastMatch;$/;"	v
+FirstUcase	Search.c	/^			WCHAR FirstUcase, FirstLcase;$/;"	m	struct:tagSEARCHPART::<anonymous>::<anonymous>	file:
+FirstUndo	Undo.c	/^LPUNDO FirstUndo, LastUndo, NextSequenceUndo;$/;"	v
+FirstVisible	Externs.c	/^LONG	 FirstVisible;\/*line numbr (starting at 0) for bitmap alignment*\/$/;"	v
+Flags	FileList.c	/^	BYTE			   Flags;$/;"	m	struct:tagFILELIST	file:
+Flags	Map.h	/^	DWORD		  Flags;$/;"	m	struct:tagMAP
+Flags	Page.h	/^	DWORD		   Flags;				 \/*page status flags				*\/$/;"	m	struct:tagPAGE
+Flags	Page.h	/^	INT 	 Flags;$/;"	m
+Flags	PathExp.c	/^	WORD  Flags;$/;"	m	file:
+Flags	Settings.c	/^	INT		Dialog, Flags, FirstControl, LastControl;$/;"	m	struct:tagTABSHEET	file:
+Flags	Undo.c	/^	BYTE			Flags;$/;"	m	struct:tagUNDO	file:
+Flush	Paint.c	/^static void Flush(HDC hDC, LONG x, INT y, WCHAR *Buf, INT Len, BOOL Selected)$/;"	f	file:
+FocusOnFirstControl	Settings.c	/^static BOOL	   SuppressFocusChange, FocusOnFirstControl;$/;"	v	file:
+FontCallback	Settings.c	/^BOOL FontCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+FontTitle	Settings.c	/^	INT		  FontTitle;$/;"	m	file:
+Footer	Print.c	/^PWSTR		Header, Footer;$/;"	v
+ForegroundColor	Settings.c	/^COLORREF	   *ForegroundColor;$/;"	v
+FormatShell	Misc.c	/^INT FormatShell(PSTR Result, LPSTR FormatString, LPSTR Cmd0, PSTR Cmd1)$/;"	f
+FormatShellW	Misc.c	/^INT FormatShellW(PWSTR Result, LPSTR FormatString, LPSTR Cmd0, PWSTR Cmd1)$/;"	f
+FoundName	PathExp.c	/^PCWSTR FoundName(FIND_DATA *FindData)$/;"	f
+Frame	Print.c	/^BOOL		iMeasure, LineNumbering, Frame, Frame2, Frame3;$/;"	v
+Frame2	Print.c	/^BOOL		iMeasure, LineNumbering, Frame, Frame2, Frame3;$/;"	v
+Frame3	Print.c	/^BOOL		iMeasure, LineNumbering, Frame, Frame2, Frame3;$/;"	v
+FreeAllPages	Page.c	/^void FreeAllPages(void)$/;"	f
+FreeMappings	Map.c	/^VOID FreeMappings(PMAP Tree)$/;"	f
+FreeRepList	Search.c	/^VOID FreeRepList(VOID)$/;"	f
+FreeSpareMemory	WinVi.c	/^BOOL FreeSpareMemory(VOID)$/;"	f
+FullRowExtend	Externs.c	/^BOOL	 Interruptable, FullRowExtend;$/;"	v
+FullRowFlag	Externs.c	/^BOOL	 ListFlag, NumberFlag, HexNumberFlag, FullRowFlag;$/;"	v
+GER_OFFSET	resource.h	246;"	d
+GLOBALHANDLE	Page.c	33;"	d	file:
+GLOBALHANDLE	Page.c	35;"	d	file:
+GenerateTitle	WinVi.c	/^VOID GenerateTitle(BOOL ApplyToWindow)$/;"	f
+GetAddr	Command.c	/^static PWSTR GetAddr(PWSTR Line, ULONG *Ptr)$/;"	f	file:
+GetBorderWidth	Print.c	/^INT GetBorderWidth(HWND hDlg, INT nCtl)$/;"	f
+GetCurrentTabSheet	Settings.c	/^HWND GetCurrentTabSheet(VOID)$/;"	f
+GetDblQuoteChar	WinVi.h	/^typedef enum {CommandMode, CmdGotFirstChar, GetDblQuoteChar, PositionTf,$/;"	e
+GetDefaultLanguage	Profile.c	/^UINT GetDefaultLanguage(BOOL SysDefault)$/;"	f
+GetEditLong	WinVi.c	/^BOOL GetEditLong(HWND hDlg, INT EditId, INT Min, LONG Max, LONG *Value)$/;"	f
+GetFileListEntry	FileList.c	/^PWSTR GetFileListEntry(INT nEntry)$/;"	f
+GetFontAttributes	Profile.c	/^static VOID GetFontAttributes(LPCSTR ProfileKey, PLOGFONT LogFont)$/;"	f	file:
+GetIndexList	Profile.c	/^static VOID GetIndexList(VOID)$/;"	f	file:
+GetPixelLine	Paint.c	/^INT GetPixelLine(INT Line, BOOL WithinTextArea)$/;"	f
+GetString	Settings.c	/^BOOL GetString(HWND hParent, INT Strs, LPSTR Prefill, LPSTR Buffer, INT Size)$/;"	f
+GetStringCallback	Settings.c	/^BOOL CALLBACK GetStringCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+GetStringField	Settings.c	/^static CHAR GetStringField[64];$/;"	v	file:
+GetSystemTmpDir	Page.c	/^void GetSystemTmpDir(PWSTR Path, INT Len)$/;"	f
+GetTextExtentExPoint	Paint.c	/^BOOL GetTextExtentExPoint(HDC hDC, LPSTR lpStr, INT nLen, INT nMaxExtent,$/;"	f
+GetTextPos	Paint.c	/^INT GetTextPos(PPOSITION StartParam, PPOSITION End, INT ColParam)$/;"	f
+GetTextWidth	Paint.c	/^INT GetTextWidth(HDC hDC, WCHAR *String, INT Len)$/;"	f
+GetVersion32	WinVi.c	/^static DWORD GetVersion32(VOID)$/;"	f	file:
+GetViVersion	Version.c	/^PWCHAR GetViVersion(void) {$/;"	f
+GetXPos	Paint.c	/^void GetXPos(PCOLUMN pPos)$/;"	f
+GlobalSubst	SrchDlg.c	/^void GlobalSubst(HWND hDlg)$/;"	f
+GlobalUndoFlags	Undo.c	/^int    UndoSequences, GlobalUndoFlags = UD_SAFE;$/;"	v
+GoBack	Page.c	/^ULONG GoBack(PPOSITION Pos, ULONG Amount)$/;"	f
+GoBackAndByte	Page.c	/^INT GoBackAndByte(PPOSITION Pos)$/;"	f
+GoBackAndChar	Page.c	/^INT GoBackAndChar(PPOSITION Pos)$/;"	f
+GoBackAndSingleChar	Search.c	/^INT GoBackAndSingleChar(PPOSITION Pos) {$/;"	f
+GotChar	Input.c	/^void GotChar(INT Character, WORD Flags)$/;"	f
+GotFromPipe	Exec.c	/^static volatile BOOL	   Done, GotFromPipe, WaitingForPaint;$/;"	v	file:
+GotKeydown	Input.c	/^void GotKeydown(WPARAM VirtualKey)$/;"	f
+HELPCONTEXT	WinVi.h	/^		HELPCONTEXT;$/;"	t
+HINST	WinVi.h	30;"	d
+HandleAsWmChar	Map.c	/^static BOOL HandleAsWmChar(WORD VKey)$/;"	f	file:
+HandleFlag	WinVi.c	/^BOOL HandleFlag(PCWSTR Arg, INT Len, INT *pnShow)$/;"	f
+Header	Print.c	/^PWSTR		Header, Footer;$/;"	v
+Height	WinVi.c	/^INT    x = 40, y = 60, Width = 687, Height = 500;$/;"	v
+Help	Misc.c	/^VOID Help(VOID)$/;"	f
+HelpAll	WinVi.h	/^typedef enum {HelpAll,				  HelpEditTextmode,	 HelpEditHexmode,$/;"	e
+HelpAnchors	Misc.c	/^PCSTR HelpAnchors[] = {$/;"	v
+HelpContext	Misc.c	/^HELPCONTEXT	HelpContext;$/;"	v
+HelpEditC	WinVi.h	/^			  HelpEditC,  HelpEditD,  HelpEditY,	 HelpEditZ,	 HelpEditMark,$/;"	e
+HelpEditD	WinVi.h	/^			  HelpEditC,  HelpEditD,  HelpEditY,	 HelpEditZ,	 HelpEditMark,$/;"	e
+HelpEditDoublequote	WinVi.h	/^			  HelpEditDoublequote,	  HelpPrint,	 HelpSearch, HelpSearchDlg,$/;"	e
+HelpEditFT	WinVi.h	/^			  HelpEditFT, HelpEditZZ, HelpEditShift, HelpEditShell,$/;"	e
+HelpEditHexmode	WinVi.h	/^typedef enum {HelpAll,				  HelpEditTextmode,	 HelpEditHexmode,$/;"	e
+HelpEditMark	WinVi.h	/^			  HelpEditC,  HelpEditD,  HelpEditY,	 HelpEditZ,	 HelpEditMark,$/;"	e
+HelpEditShell	WinVi.h	/^			  HelpEditFT, HelpEditZZ, HelpEditShift, HelpEditShell,$/;"	e
+HelpEditShift	WinVi.h	/^			  HelpEditFT, HelpEditZZ, HelpEditShift, HelpEditShell,$/;"	e
+HelpEditTextmode	WinVi.h	/^typedef enum {HelpAll,				  HelpEditTextmode,	 HelpEditHexmode,$/;"	e
+HelpEditY	WinVi.h	/^			  HelpEditC,  HelpEditD,  HelpEditY,	 HelpEditZ,	 HelpEditMark,$/;"	e
+HelpEditZ	WinVi.h	/^			  HelpEditC,  HelpEditD,  HelpEditY,	 HelpEditZ,	 HelpEditMark,$/;"	e
+HelpEditZZ	WinVi.h	/^			  HelpEditFT, HelpEditZZ, HelpEditShift, HelpEditShell,$/;"	e
+HelpExArgs	WinVi.h	/^			  HelpExRewind,  HelpExWrite, HelpExFilename, HelpExArgs,$/;"	e
+HelpExCd	WinVi.h	/^			  HelpExVi,		 HelpExCd,	  HelpExTag,	  HelpExShell,$/;"	e
+HelpExCommand	WinVi.h	/^			  HelpExCommand, HelpExRead,  HelpExEdit,	  HelpExNext,$/;"	e
+HelpExEdit	WinVi.h	/^			  HelpExCommand, HelpExRead,  HelpExEdit,	  HelpExNext,$/;"	e
+HelpExFilename	WinVi.h	/^			  HelpExRewind,  HelpExWrite, HelpExFilename, HelpExArgs,$/;"	e
+HelpExNext	WinVi.h	/^			  HelpExCommand, HelpExRead,  HelpExEdit,	  HelpExNext,$/;"	e
+HelpExRead	WinVi.h	/^			  HelpExCommand, HelpExRead,  HelpExEdit,	  HelpExNext,$/;"	e
+HelpExRewind	WinVi.h	/^			  HelpExRewind,  HelpExWrite, HelpExFilename, HelpExArgs,$/;"	e
+HelpExShell	WinVi.h	/^			  HelpExVi,		 HelpExCd,	  HelpExTag,	  HelpExShell,$/;"	e
+HelpExSubstitute	WinVi.h	/^			  HelpExSubstitute}$/;"	e
+HelpExTag	WinVi.h	/^			  HelpExVi,		 HelpExCd,	  HelpExTag,	  HelpExShell,$/;"	e
+HelpExVi	WinVi.h	/^			  HelpExVi,		 HelpExCd,	  HelpExTag,	  HelpExShell,$/;"	e
+HelpExWrite	WinVi.h	/^			  HelpExRewind,  HelpExWrite, HelpExFilename, HelpExArgs,$/;"	e
+HelpInsertmode	WinVi.h	/^			  HelpInsertmode,		  HelpReplacemode,$/;"	e
+HelpPrint	WinVi.h	/^			  HelpEditDoublequote,	  HelpPrint,	 HelpSearch, HelpSearchDlg,$/;"	e
+HelpReplacemode	WinVi.h	/^			  HelpInsertmode,		  HelpReplacemode,$/;"	e
+HelpSearch	WinVi.h	/^			  HelpEditDoublequote,	  HelpPrint,	 HelpSearch, HelpSearchDlg,$/;"	e
+HelpSearchDlg	WinVi.h	/^			  HelpEditDoublequote,	  HelpPrint,	 HelpSearch, HelpSearchDlg,$/;"	e
+HelpSettingsColors	WinVi.h	/^			  HelpSettingsShell,   HelpSettingsColors,   HelpSettingsFonts,$/;"	e
+HelpSettingsDisplay	WinVi.h	/^			  HelpSettingsProfile, HelpSettingsFiletype, HelpSettingsDisplay,$/;"	e
+HelpSettingsEdit	WinVi.h	/^			  HelpSettingsEdit,    HelpSettingsFiles,    HelpSettingsMacros,$/;"	e
+HelpSettingsFiles	WinVi.h	/^			  HelpSettingsEdit,    HelpSettingsFiles,    HelpSettingsMacros,$/;"	e
+HelpSettingsFiletype	WinVi.h	/^			  HelpSettingsProfile, HelpSettingsFiletype, HelpSettingsDisplay,$/;"	e
+HelpSettingsFonts	WinVi.h	/^			  HelpSettingsShell,   HelpSettingsColors,   HelpSettingsFonts,$/;"	e
+HelpSettingsLanguage	WinVi.h	/^			  HelpSettingsPrint,   HelpSettingsLanguage,$/;"	e
+HelpSettingsMacros	WinVi.h	/^			  HelpSettingsEdit,    HelpSettingsFiles,    HelpSettingsMacros,$/;"	e
+HelpSettingsPrint	WinVi.h	/^			  HelpSettingsPrint,   HelpSettingsLanguage,$/;"	e
+HelpSettingsProfile	WinVi.h	/^			  HelpSettingsProfile, HelpSettingsFiletype, HelpSettingsDisplay,$/;"	e
+HelpSettingsShell	WinVi.h	/^			  HelpSettingsShell,   HelpSettingsColors,   HelpSettingsFonts,$/;"	e
+HelpURL	Profile.c	/^PSTR  HelpURL = NULL;$/;"	v
+HelpUrlPrefix	Misc.c	/^PCSTR		HelpUrlPrefix = "file:\/\/c:\/Bin\/WinViNfo.htm";$/;"	v
+HexEditFirstNibble	Input.c	/^INT			 HexEditFirstNibble = -1;$/;"	v
+HexEditMode	Externs.c	/^BOOL	 HexEditMode, TfForward, TfIsFind, ReplaceSingle;$/;"	v
+HexEditTextSide	Input.c	/^BOOL		 HexEditTextSide = FALSE;$/;"	v
+HexFont	Externs.c	/^HFONT	 TextFont, HexFont;$/;"	v
+HexGlyphsAvail	Externs.c	/^BYTE	 TextGlyphsAvail[32], HexGlyphsAvail[32];$/;"	v
+HexInput	SrchDlg.c	/^BOOL Magic, HexInput;$/;"	v
+HexLogFont	Settings.c	/^LOGFONT			  TextLogFont, HexLogFont, NewTextLogFont, NewHexLogFont;$/;"	v
+HexNumberFlag	Externs.c	/^BOOL	 ListFlag, NumberFlag, HexNumberFlag, FullRowFlag;$/;"	v
+HexTextHeight	Font.c	/^INT	 HexTextHeight, TextTextHeight;$/;"	v
+HideCmd	ToolBar.c	/^BOOL  HideCmd;$/;"	v
+HideEditCaret	Input.c	/^BOOL HideEditCaret(void)$/;"	f
+HilitePen	Paint.c	/^HPEN	   HilitePen, ShadowPen;	\/*3d paint tools*\/$/;"	v
+HorizontalScroll	Input.c	/^void HorizontalScroll(LONG MinAmount)$/;"	f
+HorizontalScrollIntoView	Input.c	/^void HorizontalScrollIntoView(void)$/;"	f
+IDB_ANSI	WinVi.h	110;"	d
+IDB_COPY	WinVi.h	105;"	d
+IDB_CUT	WinVi.h	104;"	d
+IDB_HEX	WinVi.h	114;"	d
+IDB_NEW	WinVi.h	100;"	d
+IDB_OEM	WinVi.h	111;"	d
+IDB_OPEN	WinVi.h	101;"	d
+IDB_PASTE	WinVi.h	106;"	d
+IDB_PRINT	WinVi.h	103;"	d
+IDB_SAVE	WinVi.h	102;"	d
+IDB_SEARCH	WinVi.h	108;"	d
+IDB_SRCHAGN	WinVi.h	109;"	d
+IDB_UNDO	WinVi.h	107;"	d
+IDB_UTF16	WinVi.h	113;"	d
+IDB_UTF8	WinVi.h	112;"	d
+IDC_ABBREV	resource.h	217;"	d
+IDC_ALLUSERS	resource.h	186;"	d
+IDC_ANSI	resource.h	206;"	d
+IDC_ANSICP	resource.h	191;"	d
+IDC_ANSICPTITLE	resource.h	233;"	d
+IDC_AUTO	resource.h	187;"	d
+IDC_AUTOENCODING	resource.h	204;"	d
+IDC_AUTOINDENT	resource.h	79;"	d
+IDC_AUTOLANG	resource.h	167;"	d
+IDC_AUTOPERMANENT	resource.h	184;"	d
+IDC_AUTORESTORE	resource.h	75;"	d
+IDC_AUTOWRITE	resource.h	94;"	d
+IDC_BACKWARD	resource.h	91;"	d
+IDC_BITMAP	resource.h	122;"	d
+IDC_BITMAPBROWSE	resource.h	130;"	d
+IDC_BITMAPEDIT	resource.h	226;"	d
+IDC_BITMAPTITLE	resource.h	225;"	d
+IDC_BKUPTITLE1	resource.h	223;"	d
+IDC_BKUPTITLE2	resource.h	224;"	d
+IDC_BOTTOMBORDER	resource.h	137;"	d
+IDC_BREAKLINES	resource.h	69;"	d
+IDC_CHANGEFONT_HEX	resource.h	219;"	d
+IDC_CHANGEFONT_TEXT	resource.h	218;"	d
+IDC_CHOOSECOLOR	resource.h	228;"	d
+IDC_CODEPAGESTITLE	resource.h	232;"	d
+IDC_COLOR0	resource.h	96;"	d
+IDC_COLOR1	resource.h	97;"	d
+IDC_COLOR10	resource.h	106;"	d
+IDC_COLOR11	resource.h	107;"	d
+IDC_COLOR12	resource.h	108;"	d
+IDC_COLOR13	resource.h	109;"	d
+IDC_COLOR14	resource.h	110;"	d
+IDC_COLOR15	resource.h	111;"	d
+IDC_COLOR2	resource.h	98;"	d
+IDC_COLOR3	resource.h	99;"	d
+IDC_COLOR4	resource.h	100;"	d
+IDC_COLOR5	resource.h	101;"	d
+IDC_COLOR6	resource.h	102;"	d
+IDC_COLOR7	resource.h	103;"	d
+IDC_COLOR8	resource.h	104;"	d
+IDC_COLOR9	resource.h	105;"	d
+IDC_COLORS	resource.h	119;"	d
+IDC_COMMANDLINE	resource.h	209;"	d
+IDC_COMMANDMODE	resource.h	207;"	d
+IDC_CR	resource.h	190;"	d
+IDC_CRLF	resource.h	188;"	d
+IDC_CURRENTUSER	resource.h	185;"	d
+IDC_CUSTOM	resource.h	121;"	d
+IDC_DEFAULTINSERT	resource.h	95;"	d
+IDC_DEFAULTORIENTATION	resource.h	138;"	d
+IDC_DEFAULTTMP	resource.h	132;"	d
+IDC_DELMACRO	resource.h	215;"	d
+IDC_DELPROFILE	resource.h	236;"	d
+IDC_DIVIDINGLINE	resource.h	150;"	d
+IDC_DOUBLECOLUMN	resource.h	141;"	d
+IDC_DRIVEPATHUNC	resource.h	181;"	d
+IDC_DRIVEPATHUNCTITLE	resource.h	237;"	d
+IDC_EBCDIC	resource.h	210;"	d
+IDC_EDIT_BG	resource.h	112;"	d
+IDC_EDIT_FG	resource.h	113;"	d
+IDC_ENGLISH	resource.h	163;"	d
+IDC_EXTENSIONS	resource.h	183;"	d
+IDC_EXTENSIONSTITLE	resource.h	238;"	d
+IDC_FONTNAME	resource.h	155;"	d
+IDC_FONTNAME_HEX	resource.h	221;"	d
+IDC_FONTNAME_TEXT	resource.h	220;"	d
+IDC_FONTSAMPLE_HEX	resource.h	199;"	d
+IDC_FONTSAMPLE_TEXT	resource.h	194;"	d
+IDC_FOOTER	resource.h	147;"	d
+IDC_FORWARD	resource.h	90;"	d
+IDC_FRAME	resource.h	229;"	d
+IDC_FRAME0	resource.h	123;"	d
+IDC_FRAME1	resource.h	124;"	d
+IDC_FRAME2	resource.h	125;"	d
+IDC_FRAME3	resource.h	126;"	d
+IDC_FRAME4	resource.h	127;"	d
+IDC_FRAME5	resource.h	128;"	d
+IDC_FRAME6	resource.h	129;"	d
+IDC_FRENCH	resource.h	165;"	d
+IDC_FULLROWEXTEND	resource.h	160;"	d
+IDC_GERMAN	resource.h	166;"	d
+IDC_GETSTRINGSTRING	resource.h	241;"	d
+IDC_GETSTRINGTITLE	resource.h	240;"	d
+IDC_HEADER	resource.h	146;"	d
+IDC_HELPURL	resource.h	244;"	d
+IDC_HEX	resource.h	202;"	d
+IDC_HEXADDRESSES	resource.h	161;"	d
+IDC_HEXSEARCH	resource.h	162;"	d
+IDC_IGNORECASE	resource.h	72;"	d
+IDC_INSERTMODE	resource.h	205;"	d
+IDC_LANDSCAPE	resource.h	140;"	d
+IDC_LEFTBORDER	resource.h	134;"	d
+IDC_LF	resource.h	189;"	d
+IDC_LINENUMBER	resource.h	153;"	d
+IDC_LINENUMBERS	resource.h	159;"	d
+IDC_LIST1	resource.h	197;"	d
+IDC_LISTBOX	resource.h	92;"	d
+IDC_LOWERCASE	resource.h	73;"	d
+IDC_MACROINPUT	resource.h	201;"	d
+IDC_MACROLIST	resource.h	198;"	d
+IDC_MACRONAME	resource.h	192;"	d
+IDC_MACROREPLACE	resource.h	203;"	d
+IDC_MAGIC	resource.h	84;"	d
+IDC_MAP	resource.h	216;"	d
+IDC_MATCHCASE	resource.h	85;"	d
+IDC_MAXSCROLL	resource.h	193;"	d
+IDC_MOREFILESQUIT	resource.h	151;"	d
+IDC_NEWLINE_FG	resource.h	118;"	d
+IDC_NEWPROFILE	resource.h	235;"	d
+IDC_NOTEPADNL	resource.h	158;"	d
+IDC_NO_WRAP_OR_SCROLLBAR	resource.h	171;"	d
+IDC_NUMBER_OF_BACKUPS	resource.h	76;"	d
+IDC_OEM	resource.h	208;"	d
+IDC_OEMCP	resource.h	196;"	d
+IDC_OEMCPTITLE	resource.h	234;"	d
+IDC_ONETIMESETTING	resource.h	182;"	d
+IDC_PAGESPRINTED	resource.h	156;"	d
+IDC_PAGE_THRESHOLD	resource.h	74;"	d
+IDC_PAREN_BG	resource.h	116;"	d
+IDC_PAREN_FG	resource.h	117;"	d
+IDC_PORTRAIT	resource.h	139;"	d
+IDC_PREVIEW	resource.h	149;"	d
+IDC_PRINTFONT	resource.h	154;"	d
+IDC_PRINTFRAME	resource.h	148;"	d
+IDC_PRINTFRAME2	resource.h	152;"	d
+IDC_PROFILEACTIVATE	resource.h	239;"	d
+IDC_PROFILEMANAGER	resource.h	178;"	d
+IDC_PROFILENAME	resource.h	179;"	d
+IDC_PROFILETITLE	resource.h	222;"	d
+IDC_READONLY	resource.h	80;"	d
+IDC_REFRESHBKG	resource.h	176;"	d
+IDC_REPLACE	resource.h	88;"	d
+IDC_REPLACEALL	resource.h	89;"	d
+IDC_REPLACESTRING	resource.h	87;"	d
+IDC_RIGHTBORDER	resource.h	136;"	d
+IDC_SAVEPERMANENTLY	resource.h	180;"	d
+IDC_SEARCHSTRING	resource.h	82;"	d
+IDC_SELECT_BG	resource.h	114;"	d
+IDC_SELECT_FG	resource.h	115;"	d
+IDC_SETMACRO	resource.h	214;"	d
+IDC_SETTINGSTAB	resource.h	177;"	d
+IDC_SHELL	resource.h	242;"	d
+IDC_SHELLCOMMAND	resource.h	243;"	d
+IDC_SHIFTWIDTH	resource.h	78;"	d
+IDC_SHOWMATCH	resource.h	93;"	d
+IDC_SHOWREPLACE	resource.h	83;"	d
+IDC_SHOW_SCROLLBAR	resource.h	170;"	d
+IDC_SPANISH	resource.h	164;"	d
+IDC_STATIC	resource.h	250;"	d
+IDC_STORE	resource.h	81;"	d
+IDC_SYSCOLOR	resource.h	227;"	d
+IDC_SYSTEM	resource.h	120;"	d
+IDC_TABEXPANDDOMAINS	resource.h	230;"	d
+IDC_TABEXPANDWITHSLASH	resource.h	245;"	d
+IDC_TABEXPDOMAINTITLE	resource.h	231;"	d
+IDC_TABSTOP	resource.h	77;"	d
+IDC_TAGS	resource.h	157;"	d
+IDC_TERSE	resource.h	70;"	d
+IDC_TEXT	resource.h	200;"	d
+IDC_TMPFOLDER	resource.h	131;"	d
+IDC_TMPTITLE	resource.h	133;"	d
+IDC_TOPBORDER	resource.h	135;"	d
+IDC_UNDOLIMIT	resource.h	195;"	d
+IDC_UNIT1	resource.h	142;"	d
+IDC_UNIT2	resource.h	143;"	d
+IDC_UNIT3	resource.h	144;"	d
+IDC_UNIT4	resource.h	145;"	d
+IDC_UTF16BE	resource.h	213;"	d
+IDC_UTF16LE	resource.h	212;"	d
+IDC_UTF8	resource.h	211;"	d
+IDC_WHOLEWORD	resource.h	86;"	d
+IDC_WRAPSCAN	resource.h	71;"	d
+IDC_WRAP_AT_COLUMN	resource.h	169;"	d
+IDC_WRAP_AT_RIGHT_BORDER	resource.h	168;"	d
+IDC_WRAP_CHAR	resource.h	173;"	d
+IDC_WRAP_COLUMN	resource.h	172;"	d
+IDC_WRAP_WORD1	resource.h	174;"	d
+IDC_WRAP_WORD2	resource.h	175;"	d
+IDD_ABOUT	resource.h	60;"	d
+IDD_ARGS	resource.h	62;"	d
+IDD_COLORS	resource.h	63;"	d
+IDD_DISPLAYSETTINGS	resource.h	59;"	d
+IDD_EDITSETTINGS	resource.h	58;"	d
+IDD_LANGUAGE	resource.h	66;"	d
+IDD_PRINTCANCEL	resource.h	65;"	d
+IDD_PRINTSETTINGS	resource.h	64;"	d
+IDD_SEARCH	resource.h	61;"	d
+IDD_SETTINGS	resource.h	57;"	d
+IDD_SUBSTCONFIRM	resource.h	68;"	d
+IDD_WRAP_SCROLL	resource.h	67;"	d
+IDS_AUTHOR	resource.h	54;"	d
+IDS_COMPILER	resource.h	56;"	d
+IDS_VERSION	resource.h	51;"	d
+IDS_VERSIONBITS	resource.h	52;"	d
+IDS_VERSIONTITLE	resource.h	53;"	d
+IDS_WEBADDRESS	resource.h	55;"	d
+ID_ABOUT	resource.h	31;"	d
+ID_ALTERNATE	resource.h	12;"	d
+ID_ANSI	resource.h	41;"	d
+ID_APPLY	resource.h	5;"	d
+ID_CMDMODE	resource.h	26;"	d
+ID_COLORS	resource.h	33;"	d
+ID_COMMAND	resource.h	48;"	d
+ID_COPY	resource.h	19;"	d
+ID_CUT	resource.h	18;"	d
+ID_DELETE	resource.h	21;"	d
+ID_DISPLAYSETTINGS	resource.h	35;"	d
+ID_EBCDIC	resource.h	46;"	d
+ID_EDITSETTINGS	resource.h	36;"	d
+ID_EXIT	resource.h	17;"	d
+ID_FILELIST	resource.h	14;"	d
+ID_FONT	resource.h	32;"	d
+ID_HELP	resource.h	29;"	d
+ID_HEX	resource.h	47;"	d
+ID_INSMODE	resource.h	24;"	d
+ID_LANGUAGE	resource.h	38;"	d
+ID_NEW	resource.h	7;"	d
+ID_NEWVI	resource.h	8;"	d
+ID_OEM	resource.h	40;"	d
+ID_OPEN	resource.h	9;"	d
+ID_PASTE	resource.h	20;"	d
+ID_PRINT	resource.h	15;"	d
+ID_PRINTSETTINGS	resource.h	16;"	d
+ID_READFILE	resource.h	13;"	d
+ID_REFRESH	resource.h	28;"	d
+ID_REPMODE	resource.h	25;"	d
+ID_SAVE	resource.h	10;"	d
+ID_SAVEAS	resource.h	11;"	d
+ID_SEARCH	resource.h	49;"	d
+ID_SELECTALL	resource.h	27;"	d
+ID_SETTINGS	resource.h	34;"	d
+ID_SRCHAGN	resource.h	50;"	d
+ID_TAG	resource.h	22;"	d
+ID_TAGBACK	resource.h	23;"	d
+ID_UNDO	resource.h	39;"	d
+ID_UTF16	resource.h	43;"	d
+ID_UTF16BE	resource.h	45;"	d
+ID_UTF16LE	resource.h	44;"	d
+ID_UTF8	resource.h	42;"	d
+ID_WEBPAGE	resource.h	30;"	d
+ID_WRAPSCROLL	resource.h	37;"	d
+INCLUDE	Search.c	43;"	d	file:
+INSERT_CARET	WinVi.h	/^			  INSERT_CARET, REPLACE_CARET, REPLACE_CARET_DOUBLEHEX} CARET_TYPE;$/;"	e
+INT	WinVi.h	61;"	d
+INVALID_HANDLE_VALUE	PathExp.h	36;"	d
+ISHEX	WinVi.h	140;"	d
+ISSAFE	Page.h	32;"	d
+IS_DIRECTORY	PathExp.h	30;"	d
+IS_DIRECTORY	PathExp.h	46;"	d
+IS_HIDDEN	PathExp.h	28;"	d
+IS_HIDDEN	PathExp.h	45;"	d
+IcCount	InterCom.c	/^static UINT	  IcMessage, IcCount, IcUnassigned;$/;"	v	file:
+IcIndex	InterCom.c	/^static UINT	  IcIndex = MAXDISPLAY;$/;"	v	file:
+IcLowest	InterCom.c	/^static BOOL	  IcLowest;$/;"	v	file:
+IcMessage	InterCom.c	/^static UINT	  IcMessage, IcCount, IcUnassigned;$/;"	v	file:
+IcUnassigned	InterCom.c	/^static UINT	  IcMessage, IcCount, IcUnassigned;$/;"	v	file:
+IcWindowID	InterCom.c	/^INT IcWindowID(VOID) {$/;"	f
+IcWindows	InterCom.c	/^static HWND	  IcWindows[MAXDISPLAY];$/;"	v	file:
+Id	PathExp.c	/^static UINT	 Id;$/;"	v	file:
+Id	ToolBar.c	/^	INT   Id, xPos, Width;$/;"	m	file:
+IgnoreCaseFlag	Externs.c	/^BOOL	 IgnoreCaseFlag, WrapScanFlag, TerseFlag, DefaultInsFlag;$/;"	v
+InNumber	Input.c	/^BOOL		 InNumber;$/;"	v
+IncompleteLastLine	Page.c	/^BOOL IncompleteLastLine(void)$/;"	f
+IndentChars	InsDel.c	/^INT  IndentChars;$/;"	v
+Indenting	Externs.c	/^BOOL	 Indenting;$/;"	v
+Index	Profile.c	/^static INT  Index[NUMFILES] = {-1,-1,-1,-1,-1,-1};$/;"	v	file:
+Init	Bmp.c	/^static BOOL		Init[2], Fail[2];$/;"	v	file:
+InitApplication	WinVi.c	/^BOOL InitApplication(VOID)$/;"	f
+InitBmp	Bmp.c	/^BOOL InitBmp(HDC hDC, int BmpInx) {$/;"	f
+InitFileList	Profile.c	/^VOID InitFileList(VOID)$/;"	f
+InitInstance	WinVi.c	/^BOOL InitInstance(INT nShow)$/;"	f
+InitMappings	Map.c	/^BOOL InitMappings(VOID)$/;"	f
+InitOfn	File.c	/^void InitOfn(HWND hParent, WORD Flags)$/;"	f
+InitPaint	Paint.c	/^void InitPaint(void)$/;"	f
+InputDisplay	Map.h	/^	LPSTR		  Name, InputDisplay, Replace;$/;"	m	struct:tagMAP
+InputMatch	Map.h	/^	LPWORD		  InputMatch, ReplaceMap;$/;"	m	struct:tagMAP
+InputQueue	Map.c	/^WORD   InputQueue[64];$/;"	v
+InputThread	Exec.c	/^DWORD WINAPI InputThread(LPVOID lpParam)$/;"	f
+InsertBuffer	InsDel.c	/^BOOL InsertBuffer(LPBYTE Buffer, ULONG Length, WORD Flags) {$/;"	f
+InsertChar	InsDel.c	/^void InsertChar(INT Char) {$/;"	f
+InsertCount	InsDel.c	/^LONG InsertCount;$/;"	v
+InsertEol	InsDel.c	/^void InsertEol(UINT Flags, INT Char) {$/;"	f
+InsertFileList	Profile.c	/^VOID InsertFileList(HMENU hMenu)$/;"	f
+InsertHexTab	PathExp.c	/^static INT InsertHexTab(HWND hwndEdit, INT Position, PWSTR *Start, INT nSep)$/;"	f	file:
+InsertMode	WinVi.h	/^			  PositionQuote, PositionBracket, InsertMode, ReplaceMode} MODEENUM;$/;"	e
+InsertSubstChar	Search.c	/^void InsertSubstChar(PPOSITION Pos, INT Len, WORD Flags, PWSTR Buf)$/;"	f
+Inserted	Undo.c	/^	ULONG			Inserted;$/;"	m	struct:tagUNDO	file:
+InterCommActivate	InterCom.c	/^BOOL InterCommActivate(BOOL Backwards)$/;"	f
+InterCommCommand	InterCom.c	/^BOOL InterCommCommand(WORD uCmd)$/;"	f
+InterCommInit	InterCom.c	/^INT InterCommInit(HWND hWnd)$/;"	f
+InterCommMenu	InterCom.c	/^VOID InterCommMenu(HWND hWnd, HMENU hMenu)$/;"	f
+InterCommWindowProc	InterCom.c	/^LRESULT InterCommWindowProc(HWND hWnd, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+Interruptable	Externs.c	/^BOOL	 Interruptable, FullRowExtend;$/;"	v
+Interrupted	Externs.c	/^UINT	 Interrupted, CmdFirstChar, Number;$/;"	v
+InvalidateArea	Paint.c	/^void InvalidateArea(PPOSITION Start, LONG Length, UINT Flags)$/;"	f
+InvalidateText	Paint.c	/^void InvalidateText(void)$/;"	f
+Inverse	Search.c	/^			BOOL  Inverse;			   \/*TRUE for [^...] search operations*\/$/;"	m	struct:tagSEARCHPART::<anonymous>::<anonymous>	file:
+IsAltFile	Externs.c	/^BOOL	 IsAltFile, Unsafe, CommandWithExclamation, CaretActive;$/;"	v
+IsBaseColor	Settings.c	/^BOOL IsBaseColor(COLORREF Color)$/;"	f
+IsDBCSLeadByteEx	Paint.c	48;"	d	file:
+IsDirectory	PathExp.c	/^BOOL IsDirectory(FIND_DATA *FindData)$/;"	f
+IsFixedFont	Paint.c	/^BOOL		IsFixedFont = FALSE;$/;"	v
+IsHidden	PathExp.c	/^BOOL IsHidden(FIND_DATA *FindData)$/;"	f
+IsKeyboardMapMsg	Map.c	/^BOOL IsKeyboardMapMsg(PMSG Msg)$/;"	f
+IsMappingEqual	Map.c	/^BOOL IsMappingEqual(LPWORD m1, LPWORD m2)$/;"	f
+IsSelected	Input.c	/^static BOOL	IsSelected = TRUE;$/;"	v	file:
+IsSettingsDialogMessage	Settings.c	/^BOOL IsSettingsDialogMessage(PMSG pMsg)$/;"	f
+IsTagStackEmpty	Tags.c	/^BOOL IsTagStackEmpty(VOID)$/;"	f
+IsToolButtonEnabled	ToolBar.c	/^BOOL IsToolButtonEnabled(INT Which)$/;"	f
+IsViewOnly	Input.c	/^BOOL IsViewOnly(void)$/;"	f
+IsWinNt2kXpEtc	WinVi.c	/^BOOL	   IsWinNt2kXpEtc = FALSE;$/;"	v
+Join	InsDel.c	/^void Join(void) {$/;"	f
+Jump	Paint.c	/^void Jump(PPOSITION NewPos)$/;"	f
+JumpAbsolute	File.c	/^VOID JumpAbsolute(ULONG SkipBytes)$/;"	f
+KeyDownFocus	Map.c	/^static HWND KeyDownFocus;$/;"	v	file:
+KeyNames	Map.c	/^static PSTR KeyNames[] = {$/;"	v	file:
+KeyPrefix	Profile.c	/^static CHAR		   KeyPrefix[]			= "Software\\\\Ramo\\\\WinVi";$/;"	v	file:
+KeyState	Map.c	/^static VOID KeyState(BYTE VKey, BOOL Down)$/;"	f	file:
+KeyboardMapDequeue	Map.c	/^BOOL KeyboardMapDequeue(PMSG Msg)$/;"	f
+KeyboardSwitchTab	Settings.c	/^BOOL KeyboardSwitchTab(BOOL Backwards)$/;"	f
+Keys	Map.c	/^static BYTE Keys[] = {$/;"	v	file:
+L6xFormat	Profile.c	/^PCSTR L6xFormat = "0x%06lx";$/;"	v
+LButtonPushed	Mouse.c	/^BOOL       Selecting = FALSE, LButtonPushed = FALSE;$/;"	v
+LCASE	WinVi.h	91;"	d
+LIF_CONTD_NEXTLINE	Page.h	65;"	d
+LIF_EMPTY_LINE	Page.h	66;"	d
+LIF_EOF	Page.h	67;"	d
+LIF_REFRESH_BKGND	Page.h	69;"	d
+LIF_REFRESH_LINE	Page.h	68;"	d
+LIF_VALID	Page.h	64;"	d
+LINEINFO	Page.h	/^} LINEINFO, *PLINEINFO;$/;"	t
+LOADSTRING	WinVi.h	85;"	d
+LOADSTRINGW	WinVi.h	86;"	d
+LOWER_CMP	WinVi.h	54;"	d
+LOWER_CMP	WinVi.h	66;"	d
+LPCFHOOKPROC	WinVi.h	/^  typedef UINT (CALLBACK *LPCFHOOKPROC)(HWND, UINT, WPARAM, LPARAM);$/;"	t
+LPCHOOSEFONTPARAM	Settings.c	/^} CHOOSEFONTPARAM, FAR *LPCHOOSEFONTPARAM;$/;"	t	file:
+LPLPPOPUPLIST	PathExp.c	/^} POPUPLIST, FAR* LPPOPUPLIST, FAR* FAR* LPLPPOPUPLIST;$/;"	t	file:
+LPNMHDR	TabCtrl.h	/^  } NMHDR, FAR *LPNMHDR;$/;"	t
+LPPAGE	Page.h	/^} PAGE, *PPAGE, FAR *LPPAGE;$/;"	t
+LPPOPUPLIST	PathExp.c	/^} POPUPLIST, FAR* LPPOPUPLIST, FAR* FAR* LPLPPOPUPLIST;$/;"	t	file:
+LPREDO	Input.c	/^} REDO, FAR *LPREDO;$/;"	t	file:
+LPREPLIST	WinVi.h	/^} REPLIST, FAR *LPREPLIST;$/;"	t
+LPTAGSTACK	Tags.c	/^} TAGSTACK, FAR *LPTAGSTACK;$/;"	t	file:
+LPUNDO	Undo.c	/^} UNDO, FAR *LPUNDO;$/;"	t	file:
+Label	Settings.c	/^	CHAR	*Label;$/;"	m	struct:tagTABSHEET	file:
+Label	TabCtrl.c	/^	PSTR Label;$/;"	m	file:
+Language	Externs.c	/^UINT	 Language;$/;"	v
+LanguageCallback	WinVi.c	/^BOOL LanguageCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+LastAccess	Page.h	/^	ULONG		   LastAccess;			 \/*last access (used for paging)	*\/$/;"	m	struct:tagPAGE
+LastCmd	Command.c	/^PWSTR LastCmd;$/;"	v
+LastControl	Settings.c	/^	INT		Dialog, Flags, FirstControl, LastControl;$/;"	m	struct:tagTABSHEET	file:
+LastMatch	Search.c	/^	PSEARCHPART	FirstMatch, FirstString, LastMatch;$/;"	m	struct:tagSEARCH_DESCR	file:
+LastMatch	Search.c	/^PSEARCHPART FirstMatch, FirstString, LastMatch;$/;"	v
+LastOf	File.c	/^	OFSTRUCT LastOf,   TmpOf;$/;"	v
+LastPage	Externs.c	/^LPPAGE	 FirstPage, LastPage;$/;"	v
+LastTime	File.c	/^	FILETIME LastTime, TmpTime;$/;"	v
+LastTmpOffset	Page.c	/^static LONG LastTmpOffset = 0L;$/;"	v	file:
+LastUndo	Undo.c	/^LPUNDO FirstUndo, LastUndo, NextSequenceUndo;$/;"	v
+LcaseFlag	Profile.c	/^BOOL			   LcaseFlag;$/;"	v
+LdFormat	Profile.c	/^PCSTR LdFormat  = "%ld";$/;"	v
+Length	Search.c	/^			BYTE  Length;$/;"	m	struct:tagSEARCHPART::<anonymous>::<anonymous>	file:
+Level	Search.c	/^INT  Level;$/;"	v
+LineInfo	Externs.c	/^PLINEINFO LineInfo;$/;"	v
+LineNumbering	Print.c	/^BOOL		iMeasure, LineNumbering, Frame, Frame2, Frame3;$/;"	v
+LinesInFile	Externs.c	/^ULONG	 LinesInFile, SelectCount;$/;"	v
+LinesVar	Command.c	/^INT LinesVar, ColumnsVar;$/;"	v
+ListFlag	Externs.c	/^BOOL	 ListFlag, NumberFlag, HexNumberFlag, FullRowFlag;$/;"	v
+LoadFontInfo	Profile.c	/^static VOID LoadFontInfo(LPCSTR FaceKey, LPCSTR HeightKey, LPCSTR AttrKey,$/;"	f	file:
+LoadFontSettings	Profile.c	/^static VOID LoadFontSettings(VOID)$/;"	f	file:
+LoadMappingSettings	Profile.c	/^static VOID LoadMappingSettings(VOID)$/;"	f	file:
+LoadPrintSettings	Profile.c	/^static VOID LoadPrintSettings(VOID)$/;"	f	file:
+LoadSettings	Profile.c	/^VOID LoadSettings(VOID)$/;"	f
+LoadTips	ToolBar.c	/^void LoadTips(void)$/;"	f
+Locked	ToolBar.c	/^	BOOL  Pushed, Locked, Disabled;$/;"	m	file:
+LowerCaseFnameA	File.c	/^void LowerCaseFnameA(PSTR Fname)$/;"	f
+LowerCaseFnameW	File.c	/^void LowerCaseFnameW(PWSTR Fname)$/;"	f
+LoweredFrame	Status.h	/^	BOOL LoweredFrame;$/;"	m	struct:tagSTATUSSTYLE
+MAKEINTRES	WinVi.h	87;"	d
+MAKEINTRESOURCEW	WinVi.h	75;"	d
+MAKEINTRESW	WinVi.h	88;"	d
+MAKEWORD	WinVi.h	35;"	d
+MAP_ALT	Map.c	35;"	d	file:
+MAP_CHAR	Map.c	32;"	d	file:
+MAP_CTRL	Map.c	33;"	d	file:
+MAP_KEYDOWN	Map.c	31;"	d	file:
+MAP_SHIFT	Map.c	34;"	d	file:
+MASK	Search.c	/^typedef BYTE MASK[4][33];$/;"	t	file:
+MAXDISPLAY	InterCom.c	26;"	d	file:
+MAX_PATH	WinVi.h	64;"	d
+MENUITEMINFOW	InterCom.c	114;"	d	file:
+MENUITEMINFOW	WinVi.c	753;"	d	file:
+MIIRADIOMENU_DWTYPEDATA	InterCom.c	115;"	d	file:
+MIIRADIOMENU_DWTYPEDATA	InterCom.c	117;"	d	file:
+MIIRADIOMENU_DWTYPEDATA	WinVi.c	754;"	d	file:
+MIIRADIOMENU_DWTYPEDATA	WinVi.c	756;"	d	file:
+MODEENUM	WinVi.h	/^			  PositionQuote, PositionBracket, InsertMode, ReplaceMode} MODEENUM;$/;"	t
+M_ABBREVIATION	Map.h	26;"	d
+M_COMMANDLINE	Map.h	29;"	d
+M_COMMANDMODE	Map.h	28;"	d
+M_INSERTMODE	Map.h	27;"	d
+MacrosCallback	Map.c	/^BOOL MacrosCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+Magic	SrchDlg.c	/^BOOL Magic, HexInput;$/;"	v
+MagicFlag	Search.c	/^BOOL MagicFlag = TRUE;$/;"	v
+MainProc	WinVi.c	/^LRESULT CALLBACK MainProc(HWND hWnd, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+MakeBackgroundBrushes	WinVi.c	/^VOID MakeBackgroundBrushes(VOID)$/;"	f
+MapAnsiToEbcdic	Page.c	/^BYTE const MapAnsiToEbcdic[256] = {$/;"	v
+MapEbcdicToAnsi	Page.c	/^BYTE const MapEbcdicToAnsi[256] = {$/;"	v
+MapInterrupted	Map.c	/^BOOL MapInterrupted = FALSE;$/;"	v
+MapIsMatching	Map.c	/^static BOOL MapIsMatching(LPWORD Input, LPWORD CompareWith, INT Len)$/;"	f	file:
+MapLowOemToUtf16	Paint.c	/^WCHAR const MapLowOemToUtf16[33] = {$/;"	v
+MapMatch	Map.c	/^static BOOL MapMatch(BOOL DequeueSingle)$/;"	f	file:
+MapUnicodeToOem	Search.c	/^BYTE MapUnicodeToOem(WCHAR Char)$/;"	f
+MarkPos	Page.c	/^POSITION		MarkPos[27];$/;"	v
+MatchAtEndOfLine	Search.c	/^	BOOL		RescanMaximumMatch, MatchAtStartOfLine, MatchAtEndOfLine;$/;"	m	struct:tagSEARCH_DESCR	file:
+MatchAtEndOfLine	Search.c	/^BOOL		MatchAtStartOfLine, MatchAtEndOfLine, MatchForward, MatchValid;$/;"	v
+MatchAtStartOfLine	Search.c	/^	BOOL		RescanMaximumMatch, MatchAtStartOfLine, MatchAtEndOfLine;$/;"	m	struct:tagSEARCH_DESCR	file:
+MatchAtStartOfLine	Search.c	/^BOOL		MatchAtStartOfLine, MatchAtEndOfLine, MatchForward, MatchValid;$/;"	v
+MatchDrivePathUNC	Profile.c	/^static INT MatchDrivePathUNC(PWSTR MatchAgainst, PCWSTR Filename)$/;"	f	file:
+MatchExtension	Profile.c	/^static BOOL MatchExtension(PCWSTR MatchAgainst, PCWSTR Filename)$/;"	f	file:
+MatchForward	Search.c	/^	BOOL		MatchValid, MatchForward;$/;"	m	struct:tagSEARCH_DESCR	file:
+MatchForward	Search.c	/^BOOL		MatchAtStartOfLine, MatchAtEndOfLine, MatchForward, MatchValid;$/;"	v
+MatchMulti	Search.c	/^			BYTE  MatchMulti;		   \/*appended '*' in pattern*\/$/;"	m	struct:tagSEARCHPART::<anonymous>::<anonymous>	file:
+MatchRight	Command.c	/^static BOOL MatchRight(LPSTR LongerString, LPSTR ShorterString)$/;"	f	file:
+MatchSpecial	Search.c	/^BOOL MatchSpecial(PSEARCHPART *pSrch, PPOSITION Pos, BOOL Backward) {$/;"	f
+MatchValid	Search.c	/^	BOOL		MatchValid, MatchForward;$/;"	m	struct:tagSEARCH_DESCR	file:
+MatchValid	Search.c	/^BOOL		MatchAtStartOfLine, MatchAtEndOfLine, MatchForward, MatchValid;$/;"	v
+MatchingAbbreviation	Map.c	/^BOOL   MatchingAbbreviation;$/;"	v
+MaxLen	PathExp.c	/^static int Columns, MaxLen;$/;"	v	file:
+MaxRow	TabCtrl.c	/^static INT	 CurrentLabel, Base = 10, ActiveRow, MaxRow = 0, RowHeight = 10;$/;"	v	file:
+MaxScroll	Externs.c	/^INT		 MaxScroll, Disabled;$/;"	v
+Maximized	WinVi.c	/^BOOL   Maximized;$/;"	v
+MeasureCaret	Paint.c	/^static BOOL	 MeasureCaret, NewCaret;$/;"	v	file:
+MenuGroup	PathExp.c	/^	BYTE   MenuGroup;	\/*0=internal\/shell internal, 1=directory, 2=file*\/$/;"	m	struct:tagPOPUPLIST	file:
+MessageLoop	WinVi.c	/^INT MessageLoop(BOOL Wait)$/;"	f
+MinimumMatchBkwd	Search.c	/^BOOL MinimumMatchBkwd;$/;"	v
+Mode	Externs.c	/^MODEENUM Mode;$/;"	v
+ModeAfterTfmq	Input.c	/^MODEENUM	 ModeAfterTfmq;$/;"	v
+MoreFilesWarned	Command.c	/^BOOL MoreFilesWarned = FALSE, Exiting = FALSE;$/;"	v
+MouseActivated	Externs.c	/^BOOL	 MouseActivated, BreakLineFlag, ShowMatchFlag;$/;"	v
+MouseForToolbar	ToolBar.c	/^BOOL MouseForToolbar(UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+MouseHandle	Mouse.c	/^BOOL MouseHandle(UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+MouseInTextArea	Mouse.c	/^void MouseInTextArea(UINT uMsg, WPARAM wPar, int Line, int xPixel, int yPixel,$/;"	f
+MouseSelect	Mouse.c	/^static void MouseSelect(void)$/;"	f	file:
+MouseSelectText	Mouse.c	/^void MouseSelectText(UINT uMsg, WPARAM wPar, LONG xPixel, BOOL BelowText)$/;"	f
+MoveTo	WinVi.h	57;"	d
+MsWheelRollMsg	WinVi.c	/^UINT	   MsWheelRollMsg = 0, WheelAmount = 3, ScrollMsg = 0;$/;"	v
+Multiplier	Input.c	/^UINT		Multiplier;$/;"	v
+MyControlHandler	Exec.c	/^BOOL CALLBACK MyControlHandler(DWORD dwCtrlType)$/;"	f
+MyDefWindowProc	WinVi.c	/^LRESULT MyDefWindowProc(HWND hWnd, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+MyFindClose	PathExp.c	/^BOOL MyFindClose(HANDLE Handle)$/;"	f
+MyFindFirst	PathExp.c	/^HANDLE MyFindFirst(PWSTR Name, FIND_DATA *FindData)$/;"	f
+MyFindNext	PathExp.c	/^BOOL MyFindNext(HANDLE Handle, FIND_DATA *FindData)$/;"	f
+MyGetProfileBool	Profile.c	/^static BOOL MyGetProfileBool(LPCSTR Key, BOOL Default)$/;"	f	file:
+MyGetProfileInt	Profile.c	/^static INT MyGetProfileInt(LPCSTR Key, INT Default)$/;"	f	file:
+MyGetProfileLong	Profile.c	/^static DWORD MyGetProfileLong(LPCSTR Key, DWORD Default, WORD SysDefaultMask)$/;"	f	file:
+MyGetProfileNewString	Profile.c	/^static VOID MyGetProfileNewString(LPCSTR Key, LPCSTR Default, LPSTR *pResult)$/;"	f	file:
+MyGetProfileNewStringW	Profile.c	/^static VOID MyGetProfileNewStringW(LPCSTR Key, PCWSTR Default, PWSTR *pResult)$/;"	f	file:
+MyGetProfileString	Profile.c	/^static INT MyGetProfileString(LPCSTR Key, LPCSTR Default, LPSTR Buf, INT Size)$/;"	f	file:
+MyGetProfileStringW	Profile.c	/^static INT MyGetProfileStringW(LPCSTR Key, PCWSTR Default, PWSTR Buf, INT Size)$/;"	f	file:
+MyRead	File.c	/^INT MyRead(INT hFile, PBYTE Buf, INT Size)$/;"	f
+MyRead	File.c	555;"	d	file:
+MyWriteProfileBool	Profile.c	/^static VOID MyWriteProfileBool(LPCSTR Key, BOOL Value)$/;"	f	file:
+MyWriteProfileInt	Profile.c	/^static VOID MyWriteProfileInt(LPCSTR Key, PCSTR Format, LONG Value)$/;"	f	file:
+MyWriteProfileString	Profile.c	/^static VOID MyWriteProfileString(LPCSTR Key, PCSTR Value)$/;"	f	file:
+MyWriteProfileStringW	Profile.c	/^static VOID MyWriteProfileStringW(LPCSTR Key, PCWSTR Value)$/;"	f	file:
+NETRESOURCEW	PathExp.c	/^} NETRESOURCEW;$/;"	t	file:
+NEW_SEARCH	Search.c	34;"	d	file:
+NEXT_ROW	ToolBar.c	44;"	d	file:
+NEXT_ROW	ToolBar.c	50;"	d	file:
+NMHDR	TabCtrl.h	/^  } NMHDR, FAR *LPNMHDR;$/;"	t
+NOTIFICATION	WinVi.h	40;"	d
+NOTIFICATION	WinVi.h	60;"	d
+NS_BUSY	WinVi.h	128;"	d
+NS_ERROR	WinVi.h	127;"	d
+NS_GRAY	WinVi.h	126;"	d
+NS_NORMAL	WinVi.h	125;"	d
+NS_TOOLTIP	WinVi.h	129;"	d
+NUMFILES	Profile.c	1423;"	d	file:
+NUM_RANGES	Search.c	38;"	d	file:
+NUM_SHEETS	Settings.c	114;"	d	file:
+Name	Map.h	/^	LPSTR		  Name, InputDisplay, Replace;$/;"	m	struct:tagMAP
+Name	PathExp.c	/^	WCHAR  Name[1];$/;"	m	struct:tagPOPUPLIST	file:
+Name	PathExp.c	/^	WCHAR *Name;$/;"	m	file:
+NetResource	PathExp.c	/^static NETRESOURCEW *NetResource[4] = {NULL, NULL, NULL, NULL};$/;"	v	file:
+New	File.c	/^void New(HWND hParent, BOOL SaveAltFile)$/;"	f
+NewCapsString	Status.c	/^void NewCapsString(VOID) {$/;"	f
+NewCaret	Paint.c	/^static BOOL	 MeasureCaret, NewCaret;$/;"	v	file:
+NewCharmap	Font.c	/^VOID NewCharmap(UINT OemCp, UINT Charset)$/;"	f
+NewChoice	Search.c	/^		} NewChoice;$/;"	m	union:tagSEARCHPART::<anonymous>	file:
+NewChoice	Search.c	/^void NewChoice(MASK Mask)$/;"	f
+NewDigit	Input.c	/^void NewDigit(INT Digit, BOOL Display)$/;"	f
+NewFont	Font.c	/^BOOL NewFont(HFONT *Font, PLOGFONT LogFont, PINT pHeight, BYTE GlyphsAvail[32])$/;"	f
+NewHexFont	Settings.c	/^HFONT			  NewTextFont, NewHexFont;$/;"	v
+NewHexHeight	Settings.c	/^INT				  NewTextHeight, NewHexHeight;$/;"	v
+NewHexLogFont	Settings.c	/^LOGFONT			  TextLogFont, HexLogFont, NewTextLogFont, NewHexLogFont;$/;"	v
+NewLangStr	WinVi.c	/^LPSTR NewLangStr = NULL;$/;"	v
+NewMappings	Map.c	/^PMAP FirstMapping = NULL, NewMappings = NULL;$/;"	v
+NewPage	Page.c	/^LPPAGE NewPage(void)$/;"	f
+NewPosition	Paint.c	/^long NewPosition(PPOSITION NewPos)$/;"	f
+NewScrollPos	Paint.c	/^void NewScrollPos(void)$/;"	f
+NewSearchPart	Search.c	/^PSEARCHPART NewSearchPart(void)$/;"	f
+NewStatus	Status.c	/^void NewStatus(INT Field, PWSTR Text, INT Style) {$/;"	f
+NewTextFont	Settings.c	/^HFONT			  NewTextFont, NewHexFont;$/;"	v
+NewTextHeight	Settings.c	/^INT				  NewTextHeight, NewHexHeight;$/;"	v
+NewTextLogFont	Settings.c	/^LOGFONT			  TextLogFont, HexLogFont, NewTextLogFont, NewHexLogFont;$/;"	v
+NewUndo	Undo.c	/^static BOOL NewUndo(void)$/;"	f	file:
+NewViEditCmd	Command.c	/^BOOL NewViEditCmd(PWSTR Args)$/;"	f
+Newlines	Page.h	/^	ULONG		   Newlines;			 \/*no of newline character sequences*\/$/;"	m	struct:tagPAGE
+Next	FileList.c	/^	struct tagFILELIST *Next;$/;"	m	struct:tagFILELIST	file:
+Next	Input.c	/^	struct tagREDO FAR *Next;$/;"	m	struct:tagREDO	file:
+Next	Map.h	/^	struct tagMAP *Next;$/;"	m	struct:tagMAP
+Next	Page.h	/^	struct tagPAGE FAR *Next, FAR *Prev; \/*page chaining					*\/$/;"	m	struct:tagPAGE
+Next	Search.c	/^	struct tagSEARCHPART *Next, *Prev;$/;"	m	struct:tagSEARCHPART	file:
+Next	Tags.c	/^	struct tagTAGSTACK FAR *Next;$/;"	m	struct:tagTAGSTACK	file:
+Next	Undo.c	/^	struct tagUNDO	FAR *Prev, FAR *Next, FAR *UndoRef;$/;"	m	struct:tagUNDO	file:
+Next	WinVi.h	/^	struct tagREPLIST FAR *Next;$/;"	m	struct:tagREPLIST
+NextBranch	Search.c	/^			struct tagSEARCHPART *NextBranch;$/;"	m	struct:tagSEARCHPART::<anonymous>::<anonymous>	file:
+NextChar	Tags.c	/^static INT NextChar(HFILE hf)$/;"	f	file:
+NextCmd	File.c	/^BOOL NextCmd(PCWSTR FNames)$/;"	f
+NextSequenceUndo	Undo.c	/^LPUNDO FirstUndo, LastUndo, NextSequenceUndo;$/;"	v
+NoGlyphs	Settings.c	/^BOOL		   NoGlyphs = FALSE, NoHexGlyphs = FALSE;$/;"	v
+NoHexGlyphs	Settings.c	/^BOOL		   NoGlyphs = FALSE, NoHexGlyphs = FALSE;$/;"	v
+NoneMask	Search.c	/^MASK NoneMask = {{0}}, AnyMask = {$/;"	v
+NotEdited	File.c	/^BOOL		  NotEdited = FALSE;$/;"	v
+NotepadCompatible	WinVi.c	/^BOOL NotepadCompatible(VOID)$/;"	f
+NrSizes	PathExp.c	/^static DWORD        NrSizes[4];$/;"	v	file:
+NumLock	Externs.c	/^WCHAR	 NumLock[10], CapsLock[10];$/;"	v
+Number	Externs.c	/^UINT	 Interrupted, CmdFirstChar, Number;$/;"	v
+NumberFlag	Externs.c	/^BOOL	 ListFlag, NumberFlag, HexNumberFlag, FullRowFlag;$/;"	v
+OWN_TABCTRL	TabCtrl.h	19;"	d
+OemCodePage	Font.c	/^INT OemCodePage = CP_OEMCP, AnsiCodePage = CP_ACP;$/;"	v
+OffsetTo1stString	Search.c	/^INT		 OffsetTo1stString;$/;"	v
+Ofn	File.c	/^OPENFILENAMEW Ofn = {0};$/;"	v
+Open	File.c	/^BOOL Open(PCWSTR FName, WORD Flags)$/;"	f
+OpenFileName	File.c	/^BOOL OpenFileName(BOOL DontCreate)$/;"	f
+OpenNextTagsFile	Tags.c	/^static HANDLE OpenNextTagsFile(VOID)$/;"	f	file:
+OutputThread	Exec.c	/^DWORD WINAPI OutputThread(LPVOID lpParam)$/;"	f
+OverrideOrientation	Print.c	/^BOOL		OverrideOrientation, DoubleColumn;$/;"	v
+PAGE	Page.h	/^} PAGE, *PPAGE, FAR *LPPAGE;$/;"	t
+PAGEALLOC	Page.c	39;"	d	file:
+PAGEFREE	Page.c	40;"	d	file:
+PAGESIZE	Page.h	18;"	d
+PARAM_NOT_USED	WinVi.h	94;"	d
+PARAM_NOT_USED	WinVi.h	96;"	d
+PCOLUMN	WinVi.h	/^} COLUMN, *PCOLUMN;$/;"	t
+PCSTR	WinVi.h	/^  typedef CHAR const  *PCSTR;$/;"	t
+PFILELIST	FileList.c	/^} FILELIST, *PFILELIST;$/;"	t	file:
+PLINEINFO	Page.h	/^} LINEINFO, *PLINEINFO;$/;"	t
+PMAP	Map.h	/^} *PMAP;$/;"	t
+POPUPLIST	PathExp.c	/^} POPUPLIST, FAR* LPPOPUPLIST, FAR* FAR* LPLPPOPUPLIST;$/;"	t	file:
+POSITION	Page.h	/^} POSITION, *PPOSITION;$/;"	t
+POSITION_PREVENT_CRLF_COMBINATION	Page.h	42;"	d
+POSITION_UTF8_HIGH_SURROGATE_DONE	Page.h	43;"	d
+PPAGE	Page.h	/^} PAGE, *PPAGE, FAR *LPPAGE;$/;"	t
+PPOSITION	Page.h	/^} POSITION, *PPOSITION;$/;"	t
+PROFILEOP	WinVi.h	/^		PROFILEOP;$/;"	t
+PSEARCHPART	Search.c	/^} SEARCHPART, *PSEARCHPART;$/;"	t	file:
+PUSHED_DISABLED	ToolBar.c	46;"	d	file:
+PUSHED_DISABLED	ToolBar.c	52;"	d	file:
+PUSHED_LOCKED	ToolBar.c	45;"	d	file:
+PUSHED_LOCKED	ToolBar.c	51;"	d	file:
+PageBuf	Page.h	/^	LPBYTE		   PageBuf;				 \/*character buffer of page			*\/$/;"	m	struct:tagPAGE
+PageFilePos	Page.h	/^	LONG		   PageFilePos;			 \/*position on paging file			*\/$/;"	m	struct:tagPAGE
+PageNo	Page.h	/^	UINT		   PageNo;				 \/*length of chain in Prev			*\/$/;"	m	struct:tagPAGE
+PageNo	Print.c	/^static UINT	PageNo;$/;"	v	file:
+PageThreshold	WinVi.c	/^LONG   PageThreshold = 500;$/;"	v
+PagesOccupied	Page.c	/^static int PagesOccupied;$/;"	v	file:
+Paint	Paint.c	/^void Paint(HDC hDC, PRECT pRect)$/;"	f
+PaintAll	Paint.c	/^BOOL PaintAll;$/;"	v
+PaintBmp	Bmp.c	/^BOOL PaintBmp(HDC hDC, int BmpInx, PRECT Rect, LONG xOff, LONG yOff) {$/;"	f
+PaintStatus	Status.c	/^void PaintStatus(HDC hDC, PRECT pRect, PRECT pWholeWindow) {$/;"	f
+PaintTools	ToolBar.c	/^void PaintTools(HDC hDC, PRECT pRect)$/;"	f
+PathExpCleanup	PathExp.c	/^void PathExpCleanup(void)$/;"	f
+PathExpCommand	PathExp.c	/^void PathExpCommand(UINT Command)$/;"	f
+PathExpMenu	PathExp.c	/^HMENU PathExpMenu;$/;"	v
+PatternMatch	PathExp.c	/^BOOL PatternMatch(PCWSTR String, PCWSTR Pattern)$/;"	f
+PendingDown	Map.c	/^WORD   PendingDown   = 0;$/;"	v
+PendingMsg	Map.c	/^MSG    PendingMsg    = {0};$/;"	v
+PendingUp	Map.c	/^WORD   PendingUp	 = 0;$/;"	v
+PixelOffset	WinVi.h	/^	LONG PixelOffset;	\/*number of pixels from left border of leftmost char*\/$/;"	m
+Pixels	Page.h	/^	ULONG	 Pixels;			\/*line width needed for horizontal scrollbar*\/$/;"	m
+PopTag	Tags.c	/^VOID PopTag(BOOL Jump)$/;"	f
+PopupAllocated	PathExp.c	/^int PopupInUse=0, PopupAllocated=0;$/;"	v
+PopupInUse	PathExp.c	/^int PopupInUse=0, PopupAllocated=0;$/;"	v
+PopupList	PathExp.c	/^LPLPPOPUPLIST PopupList = NULL;$/;"	v
+PopupLparam	WinVi.c	/^LPARAM PopupLparam;$/;"	v
+Pos	Page.h	/^	POSITION Pos;$/;"	m
+Pos	Search.c	/^			POSITION Pos;			   \/*matched position of "\\(" \/ "\\)"*\/$/;"	m	struct:tagSEARCHPART::<anonymous>::<anonymous>	file:
+Pos	Tags.c	/^	ULONG					Pos;$/;"	m	struct:tagTAGSTACK	file:
+Pos	Undo.c	/^	ULONG			Pos;$/;"	m	struct:tagUNDO	file:
+Position	Position.c	/^BOOL Position(LONG Repeat, INT Command, INT Flags)$/;"	f
+Position	TabCtrl.c	/^	INT  Row, Position, Width;$/;"	m	file:
+PositionBracket	WinVi.h	/^			  PositionQuote, PositionBracket, InsertMode, ReplaceMode} MODEENUM;$/;"	e
+PositionQuote	WinVi.h	/^			  PositionQuote, PositionBracket, InsertMode, ReplaceMode} MODEENUM;$/;"	e
+PositionTf	WinVi.h	/^typedef enum {CommandMode, CmdGotFirstChar, GetDblQuoteChar, PositionTf,$/;"	e
+PrepareBitmap	ToolBar.c	/^void PrepareBitmap(HDC hdcScreen)$/;"	f
+PrepareInsert	Input.c	/^void PrepareInsert(BOOL JumpFwd, BOOL SearchEol, BOOL AddEol)$/;"	f
+PrepareNextLine	Paint.c	/^static void PrepareNextLine(PPOSITION p, ULONG ByteCount, BOOL Continued)$/;"	f	file:
+Prev	Page.h	/^	struct tagPAGE FAR *Next, FAR *Prev; \/*page chaining					*\/$/;"	m	struct:tagPAGE
+Prev	Search.c	/^	struct tagSEARCHPART *Next, *Prev;$/;"	m	struct:tagSEARCHPART	file:
+Prev	Undo.c	/^	struct tagUNDO	FAR *Prev, FAR *Next, FAR *UndoRef;$/;"	m	struct:tagUNDO	file:
+PrevCaretHeight	Input.c	/^static INT	 PrevCaretWidth, PrevCaretHeight;$/;"	v	file:
+PrevCaretWidth	Input.c	/^static INT	 PrevCaretWidth, PrevCaretHeight;$/;"	v	file:
+PrevDenyAbbrev	Map.c	/^BOOL   DenyAbbrev	 = FALSE, PrevDenyAbbrev;$/;"	v
+PrevMouseCount	Mouse.c	/^LONG       PrevMouseCount;$/;"	v
+PrevMousePos	Mouse.c	/^POSITION   PrevMousePos;$/;"	v
+PreviousWorkingDir	Command.c	/^PWSTR		 PreviousWorkingDir = NULL;$/;"	v
+PrintCallback	Print.c	/^BOOL PrintCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+PrintCancelCallback	Print.c	/^BOOL WINAPI PrintCancelCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+PrintCancelled	Print.c	/^BOOL	   PrintCancelled;$/;"	v
+PrintDoc	Print.c	/^BOOL PrintDoc(HWND hwndParent, BOOL WithDlg)$/;"	f
+PrintFromMenu	Print.c	/^VOID PrintFromMenu(HWND hwndParent)$/;"	f
+PrintFromToolbar	Print.c	/^VOID PrintFromToolbar(HWND hwndParent) {$/;"	f
+PrintHeaderFooter	Print.c	/^VOID PrintHeaderFooter(HDC hDC, PWSTR Text, INT LeftX, INT RightX, INT Y)$/;"	f
+PrintImmediate	Print.c	/^VOID PrintImmediate(HWND hwndParent)$/;"	f
+PrintIt	Print.c	/^VOID PrintIt(HDC hDC, INT nCopies, BOOL fStartDoc, BOOL fEndDoc)$/;"	f
+PrintOnly	WinVi.c	/^BOOL PrintOnly=FALSE, ReadOnlyParam=FALSE;$/;"	v
+PrintSetPrinter	Print.c	/^BOOL PrintSetPrinter(PCWSTR Arg, INT Len)$/;"	f
+PrintSettings	Print.c	/^VOID PrintSettings(HWND hwndParent)$/;"	f
+PrintTab	Settings.c	/^INT CurrTab = 0, PrintTab = TAB_PRINT;$/;"	v
+PrintWidth	Print.c	/^INT PrintWidth(HDC hDC, PSTR Buffer, INT Len)$/;"	f
+PrintWidthW	Print.c	/^INT PrintWidthW(HDC hDC, PWSTR Buffer, INT Len)$/;"	f
+ProfileAdd	WinVi.h	/^			  ProfileAdd,		   ProfileDelete,  ProfileClose}$/;"	e
+ProfileBuffer	Profile.c	/^static CHAR		   ProfileBuffer[76];$/;"	v	file:
+ProfileCallback	Settings.c	/^BOOL ProfileCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+ProfileClose	WinVi.h	/^			  ProfileAdd,		   ProfileDelete,  ProfileClose}$/;"	e
+ProfileDelete	WinVi.h	/^			  ProfileAdd,		   ProfileDelete,  ProfileClose}$/;"	e
+ProfileRestore	WinVi.h	/^typedef enum {ProfileSaveAndClear, ProfileRestore, ProfileSwitchAndLoad,$/;"	e
+ProfileSaveAndClear	WinVi.h	/^typedef enum {ProfileSaveAndClear, ProfileRestore, ProfileSwitchAndLoad,$/;"	e
+ProfileSection	Profile.c	/^static LPCSTR	   ProfileSection		= "Ramo's WinVi";$/;"	v	file:
+ProfileSwitchAndLoad	WinVi.h	/^typedef enum {ProfileSaveAndClear, ProfileRestore, ProfileSwitchAndLoad,$/;"	e
+PushTag	Tags.c	/^static VOID PushTag(VOID)$/;"	f	file:
+Pushed	ToolBar.c	/^	BOOL  Pushed, Locked, Disabled;$/;"	m	file:
+Put	InsDel.c	/^BOOL Put(long Number, BOOL Behind) {$/;"	f
+QueryString	Settings.c	/^CHAR		   QueryString[150];$/;"	v
+QueryTime	Settings.c	/^DWORD		   QueryTime;$/;"	v
+QueuedChars	Map.c	/^INT    QueuedChars   = 0;		\/*already matched input chars*\/$/;"	v
+QuitCmd	Command.c	/^BOOL QuitCmd(BOOL AskIfMoreFiles)$/;"	f
+QuitIfMoreFlag	Externs.c	/^BOOL	 DefaultTmpFlag, QuitIfMoreFlag, WrapPosFlag;$/;"	v
+QuoteChar	Input.c	/^INT QuoteCommandChar, QuoteChar;$/;"	v
+QuoteCommandChar	Input.c	/^INT QuoteCommandChar, QuoteChar;$/;"	v
+REDO	Input.c	/^} REDO, FAR *LPREDO;$/;"	t	file:
+REPLACE_CARET	WinVi.h	/^			  INSERT_CARET, REPLACE_CARET, REPLACE_CARET_DOUBLEHEX} CARET_TYPE;$/;"	e
+REPLACE_CARET_DOUBLEHEX	WinVi.h	/^			  INSERT_CARET, REPLACE_CARET, REPLACE_CARET_DOUBLEHEX} CARET_TYPE;$/;"	e
+REPLIST	WinVi.h	/^} REPLIST, FAR *LPREPLIST;$/;"	t
+ROW_HEIGHT	ToolBar.c	43;"	d	file:
+ROW_HEIGHT	ToolBar.c	49;"	d	file:
+ROW_WIDTH	ToolBar.c	42;"	d	file:
+ROW_WIDTH	ToolBar.c	48;"	d	file:
+Range	Search.c	/^			WCHAR Range[2][NUM_RANGES];\/*start\/end pairs, case sensitive*\/$/;"	m	struct:tagSEARCHPART::<anonymous>::<anonymous>	file:
+ReadCmd	File.c	/^BOOL ReadCmd(LONG Line, PCWSTR FName)$/;"	f
+ReadOnlyFile	Externs.c	/^BOOL	 ReadOnlyFile;	\/*read-only for this file only*\/$/;"	v
+ReadOnlyFlag	Externs.c	/^BOOL	 ReadOnlyFlag, AutoRestoreFlag, AutoIndentFlag, AutoWriteFlag;$/;"	v
+ReadOnlyParam	WinVi.c	/^BOOL PrintOnly=FALSE, ReadOnlyParam=FALSE;$/;"	v
+ReadPos	File.c	/^POSITION	  ReadPos;$/;"	v
+RebuildWindowList	InterCom.c	/^static VOID RebuildWindowList(VOID)$/;"	f	file:
+RecalcStatusRow	Status.c	/^void RecalcStatusRow(void) {$/;"	f
+RecursiveBranch	Search.c	/^INT			RecursiveBranch;$/;"	v
+RedoChain	Input.c	/^REDO RedoChain;$/;"	v
+RedoCmd	Input.c	/^BYTE RedoCmd[5];$/;"	v
+RedoCount	Input.c	/^UINT RedoCount;$/;"	v
+RedoFill	Input.c	/^LONG RedoFill;$/;"	v
+Redoing	Undo.c	/^static BOOL StartWithRemove, Redoing;$/;"	v	file:
+RefreshBitmap	Externs.c	/^BOOL	 RefreshBitmap;$/;"	v
+RefreshFlag	WinVi.c	/^BOOL   RefreshFlag = FALSE;$/;"	v
+RefreshTitle	WinVi.c	/^BOOL   RefreshTitle = FALSE;$/;"	v
+RegKey	Profile.c	/^static BOOL RegKey(VOID)$/;"	f	file:
+RelativePosition	Position.c	/^LONG			RelativePosition;$/;"	v
+ReleaseBmp	Bmp.c	/^void ReleaseBmp(int BmpInx) {$/;"	f
+ReleasePaintResources	Paint.c	/^void ReleasePaintResources(void)$/;"	f
+ReleaseXOff	Exec.c	/^VOID ReleaseXOff(VOID)$/;"	f
+ReloadPage	Page.c	/^BOOL ReloadPage(LPPAGE p)$/;"	f
+RemoveFileListEntry	FileList.c	/^BOOL RemoveFileListEntry(INT n)$/;"	f
+RemoveStatusTip	Mouse.c	/^VOID RemoveStatusTip(VOID)$/;"	f
+RemoveTmpFile	Page.c	/^void RemoveTmpFile(void)$/;"	f
+RepList	Search.c	/^REPLIST   RepList;$/;"	v
+RepaintButton	ToolBar.c	/^void RepaintButton(INT Which)$/;"	f
+RepeatCommand	Input.c	/^INT  RepeatCommand;$/;"	v
+Repeating	Input.c	/^BOOL Repeating;$/;"	v
+Replace	Map.h	/^	LPSTR		  Name, InputDisplay, Replace;$/;"	m	struct:tagMAP
+ReplaceMap	Map.h	/^	LPWORD		  InputMatch, ReplaceMap;$/;"	m	struct:tagMAP
+ReplaceMode	WinVi.h	/^			  PositionQuote, PositionBracket, InsertMode, ReplaceMode} MODEENUM;$/;"	e
+ReplaceOpen	SrchDlg.c	/^BOOL  WholeWord, ReplaceOpen;$/;"	v
+ReplaceSearched	SrchDlg.c	/^void ReplaceSearched(HWND hDlg)$/;"	f
+ReplaceSingle	Externs.c	/^BOOL	 HexEditMode, TfForward, TfIsFind, ReplaceSingle;$/;"	v
+ReplacingAll	SrchDlg.c	/^BOOL ReplacingAll = FALSE;$/;"	v
+ReplayRedo	Input.c	/^void ReplayRedo(LONG Fill)$/;"	f
+RescanMaximumMatch	Search.c	/^	BOOL		RescanMaximumMatch, MatchAtStartOfLine, MatchAtEndOfLine;$/;"	m	struct:tagSEARCH_DESCR	file:
+RescanMaximumMatch	Search.c	/^BOOL	 RescanMaximumMatch, Wrapped;$/;"	v
+Reserve	Page.c	/^BOOL Reserve(PPOSITION Pos, INT Amount, WORD Flags)$/;"	f
+ResizeWithLinesAndColumns	Command.c	/^void ResizeWithLinesAndColumns(void)$/;"	f
+RestoreCaret	WinVi.c	/^BOOL	   RestoreCaret, SizeGrip;$/;"	v
+RestoreMatchList	Search.c	/^BOOL RestoreMatchList(VOID)$/;"	f
+RestoreProfile	Settings.c	/^CHAR RestoreProfile[64];$/;"	v
+Result	PathExp.c	/^static WCHAR Source[280], Result[280], *pTail, *pMultiLastName;$/;"	v	file:
+RewindCmd	Command.c	/^static BOOL RewindCmd(void)$/;"	f	file:
+RightOffset	Paint.c	/^INT 		 DispLine = -1, TabStop = 8, RightOffset = 0;$/;"	v
+Row	TabCtrl.c	/^	INT  Row, Position, Width;$/;"	m	file:
+RowHeight	TabCtrl.c	/^static INT	 CurrentLabel, Base = 10, ActiveRow, MaxRow = 0, RowHeight = 10;$/;"	v	file:
+SBM_SETSCROLLINFO	Paint.c	346;"	d	file:
+SEARCHCONFIRMRESULT	WinVi.h	/^		SEARCHCONFIRMRESULT;$/;"	t
+SEARCHPART	Search.c	/^} SEARCHPART, *PSEARCHPART;$/;"	t	file:
+SEARCH_DESCR	Search.c	/^} SEARCH_DESCR;$/;"	t	file:
+SETFLAG	WinVi.c	182;"	d	file:
+SETFLAG_AND_UPDATE	WinVi.c	186;"	d	file:
+SIF_DISABLENOSCROLL	Paint.c	350;"	d	file:
+SIF_PAGE	Paint.c	348;"	d	file:
+SIF_POS	Paint.c	349;"	d	file:
+SIF_RANGE	Paint.c	347;"	d	file:
+SMTO_NORMAL	InterCom.c	45;"	d	file:
+SPA_OFFSET	resource.h	248;"	d
+SPI_GETWHEELSCROLLLINES	WinVi.c	75;"	d	file:
+STATUSFIELD	Status.h	/^} STATUSFIELD;$/;"	t
+STATUSSTYLE	Status.h	/^} STATUSSTYLE;$/;"	t
+SWC_HOURGLASS_OFF	WinVi.h	122;"	d
+SWC_HOURGLASS_ON	WinVi.h	121;"	d
+SWC_SIZEGRIP	WinVi.h	119;"	d
+SWC_STATUS_OR_TOOLBAR	WinVi.h	117;"	d
+SWC_TEXTAREA	WinVi.h	118;"	d
+SWC_TEXTCURSOR	WinVi.h	120;"	d
+SW_SHOWDEFAULT	WinVi.c	1531;"	d	file:
+Save	File.c	/^void Save(PCWSTR FName)$/;"	f
+SaveAllSettings	Profile.c	/^VOID SaveAllSettings(VOID)$/;"	f
+SaveColorSettings	Profile.c	/^VOID SaveColorSettings(VOID)$/;"	f
+SaveDisplaySettings	Profile.c	/^VOID SaveDisplaySettings(VOID)$/;"	f
+SaveEditSettings	Profile.c	/^VOID SaveEditSettings(VOID)$/;"	f
+SaveFileSettings	Profile.c	/^VOID SaveFileSettings(VOID)$/;"	f
+SaveFiletypeSettings	Profile.c	/^VOID SaveFiletypeSettings(VOID)$/;"	f
+SaveFont	Profile.c	/^static VOID SaveFont(PLOGFONT LogFont, LPCSTR FaceKey, LPCSTR HeightKey,$/;"	f	file:
+SaveFontSettings	Profile.c	/^VOID SaveFontSettings(VOID)$/;"	f
+SaveGlyphsAvail	Profile.c	/^static VOID SaveGlyphsAvail(LPCSTR Key, BOOL NoGlyphs, BYTE GlyphsAvail[32])$/;"	f	file:
+SaveLanguage	Profile.c	/^VOID SaveLanguage(LPSTR pLang)$/;"	f
+SaveMappingSettings	Profile.c	/^VOID SaveMappingSettings(VOID)$/;"	f
+SaveMatchList	Search.c	/^BOOL SaveMatchList(VOID)$/;"	f
+SavePrintSettings	Profile.c	/^VOID SavePrintSettings(VOID)$/;"	f
+SaveProfileSettings	Profile.c	/^VOID SaveProfileSettings(VOID)$/;"	f
+SaveSettings	Profile.c	/^VOID SaveSettings(VOID)$/;"	f
+SaveShellSettings	Profile.c	/^VOID SaveShellSettings(VOID)$/;"	f
+SaveStatus0String	ToolBar.c	/^PWSTR SaveStatus0String;$/;"	v
+SaveStatus0Style	ToolBar.c	/^INT	  SaveStatus0Style;$/;"	v
+SavedSearch	Search.c	/^SEARCH_DESCR FAR *SavedSearch;$/;"	v
+ScreenLine	WinVi.h	/^	LONG ScreenLine;	\/*0 for first line, 1 and above for continuation lines*\/$/;"	m
+ScreenStart	Externs.c	/^POSITION ScreenStart, CurrPos;$/;"	v
+Scroll	Input.c	/^void Scroll(INT ScrollOp, INT CurrPosition)$/;"	f
+ScrollDisplay	InsDel.c	/^void ScrollDisplay(INT Lines, WORD Flags) {$/;"	f
+ScrollJump	Paint.c	/^void ScrollJump(INT Where)$/;"	f
+ScrollLine	Paint.c	/^BOOL ScrollLine(INT Dir)$/;"	f
+ScrollMsg	WinVi.c	/^UINT	   MsWheelRollMsg = 0, WheelAmount = 3, ScrollMsg = 0;$/;"	v
+ScrollPos	Paint.c	/^INT ScrollShift, ScrollRange, ScrollPos;$/;"	v
+ScrollRange	Paint.c	/^INT ScrollShift, ScrollRange, ScrollPos;$/;"	v
+ScrollShift	Paint.c	/^INT ScrollShift, ScrollRange, ScrollPos;$/;"	v
+ScrollX	Paint.c	/^INT ScrollX;$/;"	v
+SearchAgain	SrchDlg.c	/^BOOL SearchAgain(WORD Flags)$/;"	f
+SearchAndStatus	Search.c	/^BOOL SearchAndStatus(PPOSITION Pos, WORD Flags) {$/;"	f
+SearchBoxPosition	Profile.c	/^BOOL  SearchBoxPosition;$/;"	v
+SearchBoxX	Profile.c	/^INT   SearchBoxX, SearchBoxY;$/;"	v
+SearchBoxY	Profile.c	/^INT   SearchBoxX, SearchBoxY;$/;"	v
+SearchBuf	SrchDlg.c	/^WCHAR SearchBuf[256];$/;"	v
+SearchCallback	SrchDlg.c	/^BOOL CALLBACK SearchCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+SearchDialog	SrchDlg.c	/^void SearchDialog(void)$/;"	f
+SearchErrNo	Search.c	/^INT SearchErrNo = 216;$/;"	v
+SearchIt	Search.c	/^BOOL SearchIt(PPOSITION pPos, INT Flags) {$/;"	f
+SearchNewCset	Search.c	/^void SearchNewCset(void)$/;"	f
+SearchOk	SrchDlg.c	/^void SearchOk(HWND hDlg)$/;"	f
+SearchPending	Input.c	/^BOOL SearchPending;$/;"	v
+SelBkgndBrush	Paint.c	/^HBRUSH	   SelBkgndBrush, BkgndBrush;$/;"	v
+SelBkgndColor	Externs.c	/^COLORREF SelTextColor, SelBkgndColor;$/;"	v
+SelTextColor	Externs.c	/^COLORREF SelTextColor, SelBkgndColor;$/;"	v
+SelectAll	Input.c	/^VOID SelectAll(VOID)$/;"	f
+SelectAnchor	Mouse.c	/^POSITION   SelectAnchor;$/;"	v
+SelectAnchorCount	Mouse.c	/^ULONG	   SelectAnchorCount;$/;"	v
+SelectBkBitmap	WinVi.c	/^BOOL SelectBkBitmap(HWND hParent)$/;"	f
+SelectBytePos	Externs.c	/^ULONG	 SelectBytePos;$/;"	v
+SelectCount	Externs.c	/^ULONG	 LinesInFile, SelectCount;$/;"	v
+SelectDefaultCharSet	Profile.c	/^INT SelectDefaultCharSet = CS_AUTOENCODING;$/;"	v
+SelectDefaultHexMode	Profile.c	/^INT SelectDefaultHexMode = 0;		\/*0=text, 1=hex*\/$/;"	v
+SelectDefaultNewline	Profile.c	/^INT SelectDefaultNewline = 0;		\/*0=autodetect, 1=CR\/LF, 2=LF, 3=CR*\/$/;"	v
+SelectFont	Settings.c	/^static BOOL SelectFont(HWND hWnd, PLOGFONT LogFont)$/;"	f	file:
+SelectLanguage	WinVi.c	/^static VOID SelectLanguage(VOID)$/;"	f	file:
+SelectProfile	Settings.c	/^static BOOL SelectProfile(HWND hDlg, CHAR *Buf)$/;"	f	file:
+SelectStart	Externs.c	/^POSITION SelectStart;$/;"	v
+SelectWrapScroll	WinVi.c	/^static VOID SelectWrapScroll(VOID)$/;"	f	file:
+Selecting	Mouse.c	/^BOOL       Selecting = FALSE, LButtonPushed = FALSE;$/;"	v
+SeparateAllStringsA	WinVi.c	/^VOID SeparateAllStringsA(PSTR p)$/;"	f
+SeparateAllStringsW	WinVi.c	/^VOID SeparateAllStringsW(PWSTR p)$/;"	f
+SeparateStringA	WinVi.c	/^PSTR SeparateStringA(PSTR *p)$/;"	f
+SeparateStringW	WinVi.c	/^PWSTR SeparateStringW(PWSTR *p)$/;"	f
+SequenceLen	Map.c	/^INT    SequenceLen   = 0;		\/*number of valid entries in DoSequence*\/$/;"	v
+SessionEnding	WinVi.c	/^BOOL	   SessionEnding = FALSE;$/;"	v
+SetAltFileName	File.c	/^void SetAltFileName(PCWSTR FName, PPOSITION Pos)$/;"	f
+SetCharSet	ToolBar.c	/^void SetCharSet(UINT CSet, UINT Flags)$/;"	f
+SetCmd	Command.c	/^static BOOL SetCmd(PWSTR Args)$/;"	f	file:
+SetCurrPos	InsDel.c	/^void SetCurrPos(VOID) {$/;"	f
+SetDefaultNl	File.c	/^VOID SetDefaultNl(VOID)$/;"	f
+SetForegroundWndProc	Command.c	/^BOOL CALLBACK SetForegroundWndProc(HWND hWnd, LPARAM lParam)$/;"	f
+SetMenuRadioStyle	WinVi.c	/^static VOID SetMenuRadioStyle(VOID)$/;"	f	file:
+SetNewCodePage	Font.c	/^VOID SetNewCodePage(VOID)$/;"	f
+SetNormalHelpContext	Input.c	/^VOID SetNormalHelpContext(VOID)$/;"	f
+SetSafe	File.c	/^void SetSafe(BOOL FileChanged)$/;"	f
+SetSafeAfterWrite	File.c	/^BOOL SetSafeAfterWrite;$/;"	v
+SetSafeForUndo	Undo.c	/^void SetSafeForUndo(BOOL FileChanged)$/;"	f
+SetSrchDisp	Search.c	/^void SetSrchDisp(INT c)$/;"	f
+SetStatusCommand	Status.c	/^void SetStatusCommand(PWSTR pCmd, BOOL InProgress) {$/;"	f
+SetTabDlg	Settings.c	/^VOID SetTabDlg(HWND hwndSubSet)$/;"	f
+SetToolbarColor	ToolBar.c	/^void SetToolbarColor(LPRGBQUAD lpRgbQuad, INT SysColor)$/;"	f
+SetUnsafe	File.c	/^void SetUnsafe(void)$/;"	f
+Settings	Settings.c	/^void Settings(void)$/;"	f
+SettingsCallback	Settings.c	/^BOOL CALLBACK SettingsCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+SettingsDlgProc	Settings.c	/^static DLGPROC SettingsDlgProc, SubSetDlgProc;$/;"	v	file:
+SetupSearchString	SrchDlg.c	/^PWSTR SetupSearchString(HWND hDlg, INT *Error)$/;"	f
+ShadowPen	Paint.c	/^HPEN	   HilitePen, ShadowPen;	\/*3d paint tools*\/$/;"	v
+Shell	Profile.c	/^LPSTR Shell, ShellCommand;$/;"	v
+ShellCallback	Settings.c	/^BOOL ShellCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+ShellCommand	Profile.c	/^LPSTR Shell, ShellCommand;$/;"	v
+ShellCommands	PathExp.c	/^}, ShellCommands[] = {$/;"	v	file:
+Shift	InsDel.c	/^BOOL Shift(LONG Amount, WORD Flags) {$/;"	f
+ShiftWidth	Input.c	/^INT			 ShiftWidth = 4;$/;"	v
+ShmBkgndColor	Profile.c	/^COLORREF ShmBkgndColor = RGB(255,000,000);$/;"	v
+ShmTextColor	Profile.c	/^COLORREF ShmTextColor  = RGB(255,255,255);$/;"	v
+ShowChar	Input.c	/^void ShowChar(INT Character, BOOL SeparateWithBlank)$/;"	f
+ShowEditCaret	Input.c	/^void ShowEditCaret(void)$/;"	f
+ShowFileName	File.c	/^void ShowFileName(void)$/;"	f
+ShowFont	Settings.c	/^static BOOL ShowFont(VOID)$/;"	f	file:
+ShowMatch	Input.c	/^VOID ShowMatch(WORD Flags)$/;"	f
+ShowMatchFlag	Externs.c	/^BOOL	 MouseActivated, BreakLineFlag, ShowMatchFlag;$/;"	v
+ShowParenMatch	Input.c	/^BOOL ShowParenMatch;$/;"	v
+ShowPopupMenu	PathExp.c	/^static BOOL ShowPopupMenu(int x, int y)$/;"	f	file:
+ShowUrl	Misc.c	/^BOOL ShowUrl(PSTR Url)$/;"	f
+ShrinkRedraw	Paint.c	/^LONG ExpandRedraw, ShrinkRedraw;$/;"	v
+SingleCharAndAdvance	Search.c	/^INT SingleCharAndAdvance(PPOSITION Pos) {$/;"	f
+SizeGrip	WinVi.c	/^BOOL	   RestoreCaret, SizeGrip;$/;"	v
+SkipBytes	File.c	/^static ULONG SkipBytes;$/;"	v	file:
+SmallBuf	File.c	/^static WCHAR  SmallBuf[40];$/;"	v	file:
+Source	PathExp.c	/^static WCHAR Source[280], Result[280], *pTail, *pMultiLastName;$/;"	v	file:
+SpareMemory	WinVi.c	/^HGLOBAL SpareMemory;			\/*released if memory problems occur*\/$/;"	v
+SpecialCtrlVFlag	WinVi.c	/^static BOOL	SpecialCtrlVFlag = TRUE;$/;"	v	file:
+SpecialFont	Paint.c	/^HFONT	   SpecialFont = 0;$/;"	v
+SpecialMatch	Search.c	/^		} SpecialMatch;$/;"	m	union:tagSEARCHPART::<anonymous>	file:
+SrchChoice	Search.c	/^	enum {SrchChoice, SrchString, SrchSpecial} Type;$/;"	e	enum:tagSEARCHPART::<anonymous>	file:
+SrchDispBuf	Search.c	/^WCHAR SrchDispBuf[100];$/;"	v
+SrchSpecial	Search.c	/^	enum {SrchChoice, SrchString, SrchSpecial} Type;$/;"	e	enum:tagSEARCHPART::<anonymous>	file:
+SrchString	Search.c	/^	enum {SrchChoice, SrchString, SrchSpecial} Type;$/;"	e	enum:tagSEARCHPART::<anonymous>	file:
+StartInterruptCheck	Search.c	/^VOID StartInterruptCheck(void) {$/;"	f
+StartPopupMenu	PathExp.c	/^static void StartPopupMenu(void)$/;"	f	file:
+StartPos	Search.c	/^POSITION StartPos, EndMatch;$/;"	v
+StartSearch	Search.c	/^BOOL StartSearch(void) {$/;"	f
+StartTime	Search.c	/^LONG StartTime;$/;"	v
+StartUndoSequence	Undo.c	/^void StartUndoSequence(void)$/;"	f
+StartWithRemove	Undo.c	/^static BOOL StartWithRemove, Redoing;$/;"	v	file:
+StartX	Paint.c	/^INT StartX(BOOL OkToRecalc)$/;"	f
+StartupPhase	WinVi.c	/^BOOL   StartupPhase = TRUE;$/;"	v
+StatusCmd	Input.c	/^WCHAR		 StatusCmd[40];$/;"	v
+StatusColFormat	Paint.c	/^WCHAR StatusLineFormat[8]=L"%05lu", StatusColFormat[8]=L"%03lu";$/;"	v
+StatusContextMenu	Status.c	/^VOID StatusContextMenu(INT x, INT y) {$/;"	f
+StatusContextMenuCommand	Mouse.c	/^BOOL StatusContextMenuCommand(WORD wCommand)$/;"	f
+StatusErrorBackground	Status.c	/^COLORREF StatusErrorBackground = RGB(0,0,0);$/;"	v
+StatusFields	Externs.c	/^STATUSFIELD	StatusFields[8];$/;"	v
+StatusFont	Status.c	/^HFONT StatusFont   = 0;$/;"	v
+StatusHeight	Status.c	/^INT   StatusHeight = 0;$/;"	v
+StatusLineFormat	Paint.c	/^WCHAR StatusLineFormat[8]=L"%05lu", StatusColFormat[8]=L"%03lu";$/;"	v
+StatusStyle	Status.c	/^struct tagSTATUSSTYLE StatusStyle[5] = {$/;"	v
+StatusTextHeight	Externs.c	/^int			StatusTextHeight;$/;"	v
+StatusTip	ToolBar.c	/^	PWSTR StatusTip;$/;"	m	file:
+StatusTips1	ToolBar.c	/^static WCHAR StatusTips1[256], StatusTips2[256], StatusTips3[256];$/;"	v	file:
+StatusTips2	ToolBar.c	/^static WCHAR StatusTips1[256], StatusTips2[256], StatusTips3[256];$/;"	v	file:
+StatusTips3	ToolBar.c	/^static WCHAR StatusTips1[256], StatusTips2[256], StatusTips3[256];$/;"	v	file:
+StatusWidth	Status.c	/^static INT StatusWidth(PWSTR Str) {$/;"	f	file:
+StopMap	Map.c	/^VOID StopMap(BOOL ResetShiftKeys)$/;"	f
+String	Search.c	/^			WCHAR String[96];$/;"	m	struct:tagSEARCHPART::<anonymous>::<anonymous>	file:
+StringMatch	Search.c	/^		} StringMatch;$/;"	m	union:tagSEARCHPART::<anonymous>	file:
+Style	Status.h	/^	INT	  Style;$/;"	m
+SubSetCallback	Settings.c	/^BOOL CALLBACK SubSetCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+SubSetDlgProc	Settings.c	/^static DLGPROC SettingsDlgProc, SubSetDlgProc;$/;"	v	file:
+Subkey	Profile.c	/^CHAR Subkey[24];$/;"	v
+SubstChkCallback	SrchDlg.c	/^BOOL CALLBACK SubstChkCallback(HWND hDlg, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+SubstituteCmd	Search.c	/^BOOL SubstituteCmd(LONG StartLine, LONG EndLine, PWSTR Args)$/;"	f
+SunkenBoxProc	Settings.c	/^LRESULT CALLBACK SunkenBoxProc(HWND hWnd, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+SuppressAsterisk	Profile.c	/^BOOL	 SuppressAsterisk;$/;"	v
+SuppressEnableApply	Settings.c	/^INT			   SuppressEnableApply = 0;$/;"	v
+SuppressFocusChange	Settings.c	/^static BOOL	   SuppressFocusChange, FocusOnFirstControl;$/;"	v	file:
+SuppressMap	InsDel.c	/^BOOL SuppressMap = FALSE;$/;"	v
+SuppressPaint	Paint.c	/^BOOL SuppressPaint;$/;"	v
+SuppressStatusBeep	Status.c	/^BOOL SuppressStatusBeep = FALSE;$/;"	v
+SwitchCursor	Input.c	/^void SwitchCursor(WORD wFlags)$/;"	f
+SwitchMode	WinVi.c	/^VOID SwitchMode(MODEENUM NewMode)$/;"	f
+SwitchProfile	Profile.c	/^BOOL SwitchProfile(PROFILEOP Operation, PSTR Profile)$/;"	f
+SwitchTab	Settings.c	/^static VOID SwitchTab(HWND hctlTab, INT NewTab)$/;"	f	file:
+SwitchToMatchingProfile	Profile.c	/^VOID SwitchToMatchingProfile(PCWSTR Filename)$/;"	f
+SysColors	Colors.c	/^static INT	SysColors[4] = {COLOR_WINDOW,	 COLOR_WINDOWTEXT,$/;"	v	file:
+SystemColors	Paint.c	/^void SystemColors(BOOL New)$/;"	f
+TAB_COLORS	Settings.c	109;"	d	file:
+TAB_DISPLAY	Settings.c	104;"	d	file:
+TAB_EDIT	Settings.c	105;"	d	file:
+TAB_FILES	Settings.c	106;"	d	file:
+TAB_FILETYPE	Settings.c	103;"	d	file:
+TAB_FONT	Settings.c	110;"	d	file:
+TAB_LANGUAGE	Settings.c	112;"	d	file:
+TAB_MACROS	Settings.c	107;"	d	file:
+TAB_PRINT	Settings.c	111;"	d	file:
+TAB_PROFILE	Settings.c	102;"	d	file:
+TAB_SHELL	Settings.c	108;"	d	file:
+TAGSTACK	Tags.c	/^} TAGSTACK, FAR *LPTAGSTACK;$/;"	t	file:
+TCIF_TEXT	TabCtrl.h	39;"	d
+TCM_GETCURSEL	TabCtrl.h	37;"	d
+TCN_SELCHANGE	TabCtrl.h	38;"	d
+TC_ITEM	TabCtrl.h	/^  } TC_ITEM;$/;"	t
+TEST	Search.c	45;"	d	file:
+TEST_DRIVE_IO	File.c	51;"	d	file:
+TITLESIZE	WinVi.c	1355;"	d	file:
+TOOLS_HEIGHT	ToolBar.h	17;"	d
+TO_ANSI_STRCPY	PathExp.h	32;"	d
+TO_ANSI_STRCPY	PathExp.h	47;"	d
+TabCtrlFocusRect	TabCtrl.c	/^static RECT  TabCtrlFocusRect;$/;"	v	file:
+TabCtrlHasFocus	TabCtrl.c	/^static BOOL  TabCtrlHasFocus;$/;"	v	file:
+TabCtrlInit	TabCtrl.c	/^BOOL TabCtrlInit(HWND hParent, HFONT hFont)$/;"	f
+TabCtrlPaint	TabCtrl.c	/^BOOL TabCtrlPaint(HWND hWnd, HDC hDC, PAINTSTRUCT *Ps)$/;"	f
+TabCtrlProc	TabCtrl.c	/^LRESULT CALLBACK TabCtrlProc(HWND hWnd, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+TabCtrl_InsertItem	TabCtrl.h	29;"	d
+TabCtrl_InsertItem	TabCtrl.h	32;"	d
+TabCtrl_SetCurSel	TabCtrl.h	30;"	d
+TabCtrl_SetCurSel	TabCtrl.h	33;"	d
+TabExpandDomains	PathExp.c	/^WCHAR TabExpandDomains[256];$/;"	v
+TabExpandWithSlash	Profile.c	/^BOOL  TabExpandWithSlash;$/;"	v
+TabInsertItem	TabCtrl.c	/^BOOL TabInsertItem(HWND hTab, INT Which, TC_ITEM *TcItem)$/;"	f
+TabLabels	TabCtrl.c	/^} TabLabels[16];$/;"	v	file:
+TabSetCurSel	TabCtrl.c	/^BOOL TabSetCurSel(HWND hTab, INT Which)$/;"	f
+TabSheets	Settings.c	/^} TabSheets[] = {$/;"	v
+TabStop	Paint.c	/^INT 		 DispLine = -1, TabStop = 8, RightOffset = 0;$/;"	v
+Tag	Tags.c	/^BOOL Tag(PWSTR Identifier, WORD Flags)$/;"	f
+TagCommand	Tags.c	/^static WCHAR TagCommand[264];$/;"	v	file:
+TagCurrentPosition	Tags.c	/^VOID TagCurrentPosition(VOID)$/;"	f
+TagStack	Tags.c	/^static LPTAGSTACK TagStack = NULL;$/;"	v	file:
+Tags	Externs.c	/^PWSTR	 Tags;$/;"	v
+TagsFile	Tags.c	/^static PWSTR TagsFile;$/;"	v	file:
+TermMappings	Map.c	/^VOID TermMappings(VOID)$/;"	f
+TerseFlag	Externs.c	/^BOOL	 IgnoreCaseFlag, WrapScanFlag, TerseFlag, DefaultInsFlag;$/;"	v
+TestBit	Search.c	/^BYTE TestBit(PSEARCHPART pS, INT Char, BOOL Back)$/;"	f
+Text	Status.h	/^	PWSTR Text;$/;"	m
+TextAreaHeight	Paint.c	/^INT		   TextAreaHeight;$/;"	v
+TextAreaOnly	Paint.c	/^void TextAreaOnly(RECT *r, BOOL WithinOffsets)$/;"	f
+TextColor	Externs.c	/^COLORREF TextColor, BackgroundColor;$/;"	v
+TextColor	Externs.c	/^COLORREF TextColor;$/;"	v
+TextExtent	Status.h	/^	INT   TextExtent;$/;"	m
+TextFont	Externs.c	/^HFONT	 TextFont, HexFont;$/;"	v
+TextGlyphsAvail	Externs.c	/^BYTE	 TextGlyphsAvail[32], HexGlyphsAvail[32];$/;"	v
+TextHeight	Externs.c	/^int		 TextHeight;  \/*screen line y difference in pixels*\/$/;"	v
+TextLine	Paint.c	/^void TextLine(HDC hDC, INT Line, INT YPos)$/;"	f
+TextLogFont	Settings.c	/^LOGFONT			  TextLogFont, HexLogFont, NewTextLogFont, NewHexLogFont;$/;"	v
+TextTextHeight	Font.c	/^INT	 HexTextHeight, TextTextHeight;$/;"	v
+TfCommandChar	Input.c	/^INT TfCommandChar,    TfSearchChar;$/;"	v
+TfForward	Externs.c	/^BOOL	 HexEditMode, TfForward, TfIsFind, ReplaceSingle;$/;"	v
+TfIsFind	Externs.c	/^BOOL	 HexEditMode, TfForward, TfIsFind, ReplaceSingle;$/;"	v
+TfSearchChar	Input.c	/^INT TfCommandChar,    TfSearchChar;$/;"	v
+TimeDiff	File.c	/^DWORD TimeDiff(FILETIME *q1, FILETIME *q2)$/;"	f
+TimerRunning	Mouse.c	/^UINT	   TimerRunning = 0;$/;"	v
+Tip	ToolBar.c	/^	PSTR  Tip;$/;"	m	file:
+TipTexts	ToolBar.c	/^static CHAR	 TipTexts[256];$/;"	v	file:
+Title	WinVi.c	/^WCHAR  Title[TITLESIZE+1];$/;"	v
+TmpDirectory	Externs.c	/^PWSTR	 TmpDirectory;$/;"	v
+TmpFile	Page.c	/^static HANDLE	TmpFile = INVALID_HANDLE_VALUE;$/;"	v	file:
+TmpFileName	Page.c	/^static WCHAR	TmpFileName[260];$/;"	v	file:
+TmpOf	File.c	/^	OFSTRUCT LastOf,   TmpOf;$/;"	v
+TmpTime	File.c	/^	FILETIME LastTime, TmpTime;$/;"	v
+ToggleHexMode	ToolBar.c	/^void ToggleHexMode(void)$/;"	f
+ToolButtons	ToolBar.c	/^} ToolButtons[] = {$/;"	v
+TooltipBgColor	ToolBar.c	/^COLORREF TooltipFgColor, TooltipBgColor;$/;"	v
+TooltipButton	ToolBar.c	/^INT		 TooltipSuccess, TooltipButton;$/;"	v
+TooltipFgColor	ToolBar.c	/^COLORREF TooltipFgColor, TooltipBgColor;$/;"	v
+TooltipFont	Externs.c	/^HFONT	TooltipFont;$/;"	v
+TooltipHide	ToolBar.c	/^void TooltipHide(INT i)$/;"	f
+TooltipPopupTime	ToolBar.c	/^INT TooltipPopupTime = 500;$/;"	v
+TooltipPosition	ToolBar.c	/^LPARAM	 TooltipPosition;$/;"	v
+TooltipProc	ToolBar.c	/^LRESULT CALLBACK TooltipProc(HWND hWnd, UINT uMsg, WPARAM wPar, LPARAM lPar)$/;"	f
+TooltipSuccess	ToolBar.c	/^INT		 TooltipSuccess, TooltipButton;$/;"	v
+TooltipTimer	ToolBar.c	/^void TooltipTimer(void)$/;"	f
+TooltipWindow	ToolBar.c	/^HWND	 TooltipWindow;$/;"	v
+TranslateMapping	Map.c	/^BOOL TranslateMapping(LPWORD *ppMapping, PCSTR String)$/;"	f
+Type	Search.c	/^	enum {SrchChoice, SrchString, SrchSpecial} Type;$/;"	m	struct:tagSEARCHPART	file:
+UD_BYUNDO	Undo.c	36;"	d	file:
+UD_GLOBALMEM	Undo.c	39;"	d	file:
+UD_NEWOP	Undo.c	34;"	d	file:
+UD_SAFE	Undo.c	35;"	d	file:
+UD_SELECT	Undo.c	37;"	d	file:
+UD_START	Undo.c	38;"	d	file:
+ULONG	WinVi.h	32;"	d
+UNDO	Undo.c	/^} UNDO, FAR *LPUNDO;$/;"	t	file:
+UNICODE_NOCHAR	WinVi.c	72;"	d	file:
+USE_3D_COLORS	Paint.c	81;"	d	file:
+USE_3D_COLORS	Paint.c	83;"	d	file:
+UTF8_1_80_BF	Page.h	46;"	d
+UTF8_2_80_BF	Page.h	47;"	d
+UTF8_3_80_BF	Page.h	48;"	d
+UTF8_80_BF	Page.h	45;"	d
+UTF8_COMPLETE_COUNT	Page.h	49;"	d
+UTF8_COMPLETE_INCR	Page.h	50;"	d
+UTF8_MISMATCH	Page.h	51;"	d
+Undo	Undo.c	/^void Undo(WORD Flags)$/;"	f
+UndoLimit	Undo.c	/^ULONG  UndoLimit = (ULONG)-1, UndoMemUsed = 0;$/;"	v
+UndoMemUsed	Undo.c	/^ULONG  UndoLimit = (ULONG)-1, UndoMemUsed = 0;$/;"	v
+UndoRef	Undo.c	/^	struct tagUNDO	FAR *Prev, FAR *Next, FAR *UndoRef;$/;"	m	struct:tagUNDO	file:
+UndoSequences	Undo.c	/^int    UndoSequences, GlobalUndoFlags = UD_SAFE;$/;"	v
+UnicodeConvert	Paint.c	/^VOID UnicodeConvert(WCHAR *Dst, WCHAR *Src, INT Len)$/;"	f
+UnicodeToOemChar	Paint.c	/^INT UnicodeToOemChar(WCHAR Wchar)$/;"	f
+Unregister	Ctl3d.c	/^static FARPROC AutoSubclass, Enabled, ColorChange, Unregister;$/;"	v	file:
+Unsafe	Externs.c	/^BOOL	 IsAltFile, Unsafe, CommandWithExclamation, CaretActive;$/;"	v
+UnsafePage	Page.c	/^void UnsafePage(PPOSITION Pos)$/;"	f
+UnsafeSettings	WinVi.c	/^BOOL   UnsafeSettings = FALSE;$/;"	v
+Unselect	Input.c	/^void Unselect(void)$/;"	f
+UseRegistry	Profile.c	/^BOOL			   UseRegistry = TRUE;$/;"	v
+UtfEncoding	Externs.c	/^INT		 UtfEncoding;	\/*0=Non-UTF, 8=UTF-8, 16=UTF-16*\/$/;"	v
+UtfLsbFirst	Externs.c	/^BOOL	 UtfLsbFirst;$/;"	v
+VF_BOOLEAN	Command.c	309;"	d	file:
+VF_DECIMAL	Command.c	310;"	d	file:
+VF_STRING	Command.c	311;"	d	file:
+Variables	PathExp.c	/^}, Variables[] = {$/;"	v	file:
+VerifyPageStructure	Page.c	/^void VerifyPageStructure(void)$/;"	f
+Version	Version.c	/^static WCHAR Version[] = L"Version 3.02";$/;"	v	file:
+VersionCmd	Command.c	/^static void VersionCmd(void)$/;"	f	file:
+ViCommandDone	Input.c	/^void ViCommandDone(void)$/;"	f
+ViLang	Profile.c	/^CHAR ViLang[4];$/;"	v
+ViewOnlyFlag	Externs.c	/^BOOL	 ViewOnlyFlag;	\/*view-only=restrictive read-only w\/o editing*\/$/;"	v
+VisiLines	Paint.c	/^INT		   VisiLines;	\/*number of visible screen lines*\/$/;"	v
+W	Search.c	42;"	d	file:
+WM_CONTEXTMENU	WinVi.c	63;"	d	file:
+WM_MOUSEWHEEL	WinVi.c	69;"	d	file:
+WM_NOTIFY	TabCtrl.h	36;"	d
+WM_UNICHAR	WinVi.c	66;"	d	file:
+WSIZE	WinVi.h	78;"	d
+WSS_NONE	WinVi.c	526;"	d	file:
+WSS_SHOW_SCROLLBAR	WinVi.c	525;"	d	file:
+WSS_WRAP_AT_RIGHT_BORDER	WinVi.c	527;"	d	file:
+WS_EX_TOOLWINDOW	Mouse.c	31;"	d	file:
+WS_EX_TOOLWINDOW	ToolBar.c	54;"	d	file:
+WaitingForPaint	Exec.c	/^static volatile BOOL	   Done, GotFromPipe, WaitingForPaint;$/;"	v	file:
+WalkTabSheets	Settings.c	/^BOOL WalkTabSheets(INT Curr, WPARAM wPar, LPARAM lPar)$/;"	f
+WatchEvents	File.c	/^static HANDLE WatchEvents[2] = {INVALID_HANDLE_VALUE, 0};$/;"	v	file:
+WatchFile	File.c	/^BOOL WatchFile(const WCHAR *FileName)$/;"	f
+WatchFileThread	File.c	/^DWORD WINAPI WatchFileThread(LPVOID Unused)$/;"	f
+WatchMessage	File.c	/^void WatchMessage(PWSTR FileName)$/;"	f
+WatchName	File.c	/^static WCHAR  WatchName[MAX_PATH+2];$/;"	v	file:
+WatchThread	Exec.c	/^DWORD WINAPI WatchThread(LPVOID lpParam)$/;"	f
+WheelAmount	WinVi.c	/^UINT	   MsWheelRollMsg = 0, WheelAmount = 3, ScrollMsg = 0;$/;"	v
+WheelHandler	WinVi.c	/^HWND	   WheelHandler;$/;"	v
+WholeWindow	WinVi.c	/^RECT   ClientRect, WholeWindow;$/;"	v
+WholeWord	SrchDlg.c	/^BOOL  WholeWord, ReplaceOpen;$/;"	v
+Width	Status.h	/^	INT	  x, Width;$/;"	m
+Width	TabCtrl.c	/^	INT  Row, Position, Width;$/;"	m	file:
+Width	ToolBar.c	/^	INT   Id, xPos, Width;$/;"	m	file:
+Width	WinVi.c	/^INT    x = 40, y = 60, Width = 687, Height = 500;$/;"	v
+WinExecW	Command.c	/^UINT WinExecW(PWSTR Cmd, WORD Mode)$/;"	f
+WinMain	WinVi.c	/^INT WINAPI WinMain(HINST hCurr, HINST hPrev, LPSTR lpCmd, INT nShow)$/;"	f
+WinVersion	Externs.c	/^WORD	 WinVersion;$/;"	v
+WindowTitle	Profile.c	/^CHAR			   WindowTitle[40];$/;"	v
+WmChar	Map.c	/^VOID WmChar(WPARAM Char)$/;"	f
+WmKeydown	Map.c	/^VOID WmKeydown(WPARAM VKey)$/;"	f
+WrapPos	WinVi.c	/^INT WrapScrollStyle, WrapPos = IDC_WRAP_WORD1;$/;"	v
+WrapPosFlag	Externs.c	/^BOOL	 DefaultTmpFlag, QuitIfMoreFlag, WrapPosFlag;$/;"	v
+WrapScanFlag	Externs.c	/^BOOL	 IgnoreCaseFlag, WrapScanFlag, TerseFlag, DefaultInsFlag;$/;"	v
+WrapScrollCallback	WinVi.c	/^BOOL CALLBACK WrapScrollCallback$/;"	f
+WrapScrollStyle	WinVi.c	/^INT WrapScrollStyle, WrapPos = IDC_WRAP_WORD1;$/;"	v
+Wrapped	Search.c	/^BOOL	 RescanMaximumMatch, Wrapped;$/;"	v
+WriteCmd	File.c	/^BOOL WriteCmd(LONG StartLine, LONG EndLine, PCWSTR FName, WORD Flags)$/;"	f
+WriteFontAttributes	Profile.c	/^static VOID WriteFontAttributes(LPCSTR ProfileKey, PLOGFONT LogFont)$/;"	f	file:
+WriteIndexList	Profile.c	/^static VOID WriteIndexList(VOID)$/;"	f	file:
+XBUTTON_OFFSET	ToolBar.h	18;"	d
+XFIELD_OFFSET	Status.h	17;"	d
+XOffState	Exec.c	/^BOOL XOffState = FALSE;$/;"	v
+XOffWaiting1	Exec.c	/^static volatile BOOL	   XOffWaiting1, XOffWaiting2;$/;"	v	file:
+XOffWaiting2	Exec.c	/^static volatile BOOL	   XOffWaiting1, XOffWaiting2;$/;"	v	file:
+XTEXT_OFFSET	Paint.h	17;"	d
+YBUTTON_OFFSET	ToolBar.h	19;"	d
+YTEXT_OFFSET	Paint.h	18;"	d
+Yank	InsDel.c	/^BOOL Yank(PPOSITION Pos, ULONG Length, WORD Flags) {$/;"	f
+YankHandles	InsDel.c	/^HGLOBAL    YankHandles[36];$/;"	v
+YankIndex	InsDel.c	/^INT        YankIndex = 0;$/;"	v
+YankLength	InsDel.c	/^ULONG      YankLength[36];$/;"	v
+YankSubIndex	InsDel.c	/^INT		   YankSubIndex[10];$/;"	v
+_APS_NEXT_COMMAND_VALUE	resource.h	258;"	d
+_APS_NEXT_CONTROL_VALUE	resource.h	259;"	d
+_APS_NEXT_RESOURCE_VALUE	resource.h	257;"	d
+_APS_NEXT_SYMED_VALUE	resource.h	260;"	d
+_APS_NO_MFC	resource.h	256;"	d
+_WIN32_WINNT	File.c	30;"	d	file:
+_chdir	Command.c	40;"	d	file:
+_fcalloc	WinVi.h	51;"	d
+_ffree	WinVi.h	53;"	d
+_fmemchr	WinVi.h	44;"	d
+_fmemcmp	WinVi.h	43;"	d
+_fmemcpy	WinVi.h	42;"	d
+_fmemmove	WinVi.h	41;"	d
+_fmemset	WinVi.h	45;"	d
+_frealloc	WinVi.h	52;"	d
+_fstrchr	WinVi.h	46;"	d
+_fstrncmp	WinVi.h	48;"	d
+_fstrrchr	WinVi.h	47;"	d
+_lclose	File.c	93;"	d	file:
+assert	MyAssert.h	18;"	d
+assert	MyAssert.h	21;"	d
+cbSize	Print.c	/^	INT		cbSize;$/;"	m	file:
+cchTextMax	TabCtrl.h	/^	int    cchTextMax;$/;"	m	struct:tagTC_ITEM
+cf	Print.c	/^CHOOSEFONT cf = {$/;"	v
+cfFont	Settings.c	/^static CHOOSEFONT cfFont;$/;"	v	file:
+code	TabCtrl.h	/^	UINT   code;$/;"	m	struct:tagNMHDR
+di	Print.c	/^DOCINFOW   di;$/;"	v
+dwDisplayType	PathExp.c	/^	DWORD  dwDisplayType;$/;"	m	file:
+dwMemSize	Exec.c	/^static DWORD dwMemSize;$/;"	v	file:
+dwScope	PathExp.c	/^	DWORD  dwScope;$/;"	m	file:
+dwState	TabCtrl.h	/^	DWORD  dwState;$/;"	m	struct:tagTC_ITEM
+dwStateMask	TabCtrl.h	/^	DWORD  dwStateMask;$/;"	m	struct:tagTC_ITEM
+dwType	PathExp.c	/^	DWORD  dwType;$/;"	m	file:
+dwUsage	PathExp.c	/^	DWORD  dwUsage;$/;"	m	file:
+f	Page.h	/^	UINT   f;	\/*flags see below*\/$/;"	m	struct:tagPOSITION
+fwType	Print.c	/^	DWORD	fwType;$/;"	m	file:
+hBkgndBmp	Bmp.c	/^static HBITMAP	hBkgndBmp[2];$/;"	v	file:
+hDefParent	Settings.c	/^static HWND hDefParent;$/;"	v	file:
+hDevNames	Print.c	/^HGLOBAL hDevNames;$/;"	v
+hDlg	Settings.c	/^	HWND	hDlg;$/;"	m	struct:tagTABSHEET	file:
+hEnum	PathExp.c	/^static HANDLE       hEnum[4] =$/;"	v	file:
+hInst	Externs.c	/^HINST	 hInst;$/;"	v
+hInst	Settings.c	/^	HINSTANCE hInst;$/;"	m	file:
+hKey	Profile.c	/^static HKEY		   hKey					= INVALID_HANDLE_VALUE;$/;"	v	file:
+hPalette	Bmp.c	/^static HPALETTE	hPalette[2];$/;"	v	file:
+hPopupMenu	WinVi.c	/^HMENU hPopupMenu;$/;"	v
+hSemaContinueReading	Exec.c	/^static HANDLE			   hSemaContinueReading, hSemaWaitXOff;$/;"	v	file:
+hSemaWaitXOff	Exec.c	/^static HANDLE			   hSemaContinueReading, hSemaWaitXOff;$/;"	v	file:
+hStatusPopupMenu	Status.c	/^HMENU hStatusPopupMenu;$/;"	v
+hTabFont	TabCtrl.c	/^static HFONT hTabFont;$/;"	v	file:
+hThread1	Exec.c	/^static volatile HANDLE	   hThread1, hThread2, hThread3;$/;"	v	file:
+hThread2	Exec.c	/^static volatile HANDLE	   hThread1, hThread2, hThread3;$/;"	v	file:
+hThread3	Exec.c	/^static volatile HANDLE	   hThread1, hThread2, hThread3;$/;"	v	file:
+hcurArrow	Externs.c	/^HCURSOR	 hcurCurrent, hcurArrow, hcurIBeam, hcurHourGlass, hcurSizeNwSe;$/;"	v
+hcurCurrent	Externs.c	/^HCURSOR	 hcurCurrent, hcurArrow, hcurIBeam, hcurHourGlass, hcurSizeNwSe;$/;"	v
+hcurHourGlass	Externs.c	/^HCURSOR	 hcurCurrent, hcurArrow, hcurIBeam, hcurHourGlass, hcurSizeNwSe;$/;"	v
+hcurIBeam	Externs.c	/^HCURSOR	 hcurCurrent, hcurArrow, hcurIBeam, hcurHourGlass, hcurSizeNwSe;$/;"	v
+hcurSizeNwSe	Externs.c	/^HCURSOR	 hcurCurrent, hcurArrow, hcurIBeam, hcurHourGlass, hcurSizeNwSe;$/;"	v
+hmemcpy	WinVi.h	49;"	d
+huge	WinVi.h	50;"	d
+hwndCmd	Externs.c	/^HWND	 hwndMain, hwndCmd, hwndErrorParent;$/;"	v
+hwndErrorParent	Externs.c	/^HWND	 hwndMain, hwndCmd, hwndErrorParent;$/;"	v
+hwndFrom	TabCtrl.h	/^	HWND   hwndFrom;$/;"	m	struct:tagNMHDR
+hwndMain	Externs.c	/^HWND	 hwndMain, hwndCmd, hwndErrorParent;$/;"	v
+hwndPrintCancel	Print.c	/^HWND	   hwndPrintCancel;$/;"	v
+hwndScroll	Paint.c	/^HWND	   hwndScroll;$/;"	v
+hwndSearch	SrchDlg.c	/^HWND hwndSearch;$/;"	v
+hwndSettings	Settings.c	/^HWND		   hwndSettings, hwndSubSet;$/;"	v
+hwndStatusTip	Mouse.c	/^static HWND hwndStatusTip;$/;"	v	file:
+hwndSubSet	Settings.c	/^HWND		   hwndSettings, hwndSubSet;$/;"	v
+i	Page.h	/^	UINT   i;$/;"	m	struct:tagPOSITION
+iImage	TabCtrl.h	/^	int    iImage;$/;"	m	struct:tagTC_ITEM
+iMeasure	Print.c	/^BOOL		iMeasure, LineNumbering, Frame, Frame2, Frame3;$/;"	v
+idFrom	TabCtrl.h	/^	UINT   idFrom;$/;"	m	struct:tagNMHDR
+lParam	TabCtrl.h	/^	LPARAM lParam;$/;"	m	struct:tagTC_ITEM
+lf	Print.c	/^LOGFONT	   lf = {0};$/;"	v
+lpComment	PathExp.c	/^	LPWSTR lpComment;$/;"	m	file:
+lpLastRep	Search.c	/^LPREPLIST lpLastRep = &RepList;$/;"	v
+lpLocalName	PathExp.c	/^	LPWSTR lpLocalName;$/;"	m	file:
+lpMemData	Exec.c	/^static LPSTR lpMemData;$/;"	v	file:
+lpProvider	PathExp.c	/^	LPWSTR lpProvider;$/;"	m	file:
+lpRemoteName	PathExp.c	/^	LPWSTR lpRemoteName;$/;"	m	file:
+lpszDatatype	Print.c	/^	LPCWSTR	lpszDatatype;$/;"	m	file:
+lpszDocName	Print.c	/^	LPCWSTR	lpszDocName;$/;"	m	file:
+lpszOutput	Print.c	/^	LPCWSTR	lpszOutput;$/;"	m	file:
+mask	TabCtrl.h	/^	UINT   mask;$/;"	m	struct:tagTC_ITEM
+nCurrFileListEntry	FileList.c	/^int nCurrFileListEntry, nNumFileListEntries;$/;"	v
+nDefId	Settings.c	/^static INT  nDefId;$/;"	v	file:
+nMenuHeight	PathExp.c	/^int nMenuItemHght, nMenuHeight, nMenuItems;$/;"	v
+nMenuItemHght	PathExp.c	/^int nMenuItemHght, nMenuHeight, nMenuItems;$/;"	v
+nMenuItems	PathExp.c	/^int nMenuItemHght, nMenuHeight, nMenuItems;$/;"	v
+nNumFileListEntries	FileList.c	/^int nCurrFileListEntry, nNumFileListEntries;$/;"	v
+nOrientation	Print.c	/^INT			nOrientation;$/;"	v
+nParenPairs	Search.c	/^INT	  nParenPairs;$/;"	v
+nPrtBottom	Print.c	/^INT			nPrtLeft=40, nPrtTop=50, nPrtRight=40, nPrtBottom=50;$/;"	v
+nPrtLeft	Print.c	/^INT			nPrtLeft=40, nPrtTop=50, nPrtRight=40, nPrtBottom=50;$/;"	v
+nPrtRight	Print.c	/^INT			nPrtLeft=40, nPrtTop=50, nPrtRight=40, nPrtBottom=50;$/;"	v
+nPrtTop	Print.c	/^INT			nPrtLeft=40, nPrtTop=50, nPrtRight=40, nPrtBottom=50;$/;"	v
+nRepListCount	Search.c	/^INT       nRepListCount = 0;$/;"	v
+nToolbarHeight	Externs.c	/^int		yButtonOffset, nToolbarHeight;$/;"	v
+nthContdLine	Page.h	/^	INT 	 nthContdLine;$/;"	m
+p	Page.h	/^	LPPAGE p;$/;"	m	struct:tagPOSITION
+pCmd	PathExp.c	/^} *pCmd, Commands[] = {$/;"	v	file:
+pDisp	Search.c	/^static PWSTR pDisp;$/;"	v	file:
+pError	Exec.c	/^static volatile LPSTR	   pError = "No problem";$/;"	v	file:
+pFileList	FileList.c	/^PFILELIST pFileList, pLastFile;$/;"	v
+pLastFile	FileList.c	/^PFILELIST pFileList, pLastFile;$/;"	v
+pLastReplace	Search.c	/^PWSTR pLastReplace;$/;"	v
+pMultiLastName	PathExp.c	/^static WCHAR Source[280], Result[280], *pTail, *pMultiLastName;$/;"	v	file:
+pTail	PathExp.c	/^static WCHAR Source[280], Result[280], *pTail, *pMultiLastName;$/;"	v	file:
+pd	Print.c	/^PRINTDLG   pd;$/;"	v
+pfAnsiCodePage	Profile.c	/^static LPCSTR	   pfAnsiCodePage		= "AnsiCodePage";$/;"	v	file:
+pfAutoIndent	Profile.c	/^static LPCSTR	   pfAutoIndent			= "AutoIndent";$/;"	v	file:
+pfAutoPermanent	Profile.c	/^static LPCSTR	   pfAutoPermanent		= "PermanentSettings";$/;"	v	file:
+pfAutoRestore	Profile.c	/^static LPCSTR	   pfAutoRestore		= "AutoRestore";$/;"	v	file:
+pfAutoWrite	Profile.c	/^static LPCSTR	   pfAutoWrite			= "AutoWrite";$/;"	v	file:
+pfBitmap	Profile.c	/^static LPCSTR	   pfBitmap				= "Bitmap";$/;"	v	file:
+pfBkColor	Profile.c	/^static LPCSTR	   pfBkColor			= "BackgroundColor";$/;"	v	file:
+pfBreakLine	Profile.c	/^static LPCSTR	   pfBreakLine			= "BreakLine";$/;"	v	file:
+pfCaretProps	Profile.c	/^static LPCSTR	   pfCaretProps			= "CaretProperties";$/;"	v	file:
+pfCharSet	Profile.c	/^static LPCSTR	   pfCharSet			= "CharacterSet";$/;"	v	file:
+pfCustomColors	Profile.c	/^static LPCSTR	   pfCustomColors		= "CustomColors";$/;"	v	file:
+pfDefaultInsert	Profile.c	/^static LPCSTR	   pfDefaultInsert		= "DefaultInsert";$/;"	v	file:
+pfDrivePathUNC	Profile.c	/^static LPCSTR	   pfDrivePathUNC		= "ActivateDrivePathUNC";$/;"	v	file:
+pfEolColor	Profile.c	/^static LPCSTR	   pfEolColor			= "EolColor";$/;"	v	file:
+pfExtensions	Profile.c	/^static LPCSTR	   pfExtensions			= "ActivateExtensions";$/;"	v	file:
+pfFgColor	Profile.c	/^static LPCSTR	   pfFgColor			= "TextColor";$/;"	v	file:
+pfFontAttr	Profile.c	/^static LPCSTR	   pfFontAttr	 		= "FontAttributes";$/;"	v	file:
+pfFontCharSet	Profile.c	/^static LPCSTR	   pfFontCharSet		= "FontCharSet";$/;"	v	file:
+pfFontFace	Profile.c	/^static LPCSTR	   pfFontFace	 		= "FontName";$/;"	v	file:
+pfFontGlyphsAvail	Profile.c	/^static LPCSTR	   pfFontGlyphsAvail	= "FontGlyphsAvailable";$/;"	v	file:
+pfFontSize	Profile.c	/^static LPCSTR	   pfFontSize	 		= "FontSize";$/;"	v	file:
+pfFullRowExtend	Profile.c	/^static LPCSTR	   pfFullRowExtend		= "FullRowExtend";$/;"	v	file:
+pfHeight	Profile.c	/^static LPCSTR	   pfHeight				= "Height";$/;"	v	file:
+pfHelpUrl	Profile.c	/^static LPCSTR	   pfHelpUrl			= "HelpURL";$/;"	v	file:
+pfHexFontAttr	Profile.c	/^static LPCSTR	   pfHexFontAttr		= "HexFontAttributes";$/;"	v	file:
+pfHexFontCharSet	Profile.c	/^static LPCSTR	   pfHexFontCharSet		= "HexFontCharSet";$/;"	v	file:
+pfHexFontFace	Profile.c	/^static LPCSTR	   pfHexFontFace 		= "HexFontName";$/;"	v	file:
+pfHexFontGlyphsAvail	Profile.c	/^static LPCSTR	   pfHexFontGlyphsAvail	= "HexFontGlyphsAvailable";$/;"	v	file:
+pfHexFontSize	Profile.c	/^static LPCSTR	   pfHexFontSize 		= "HexFontSize";$/;"	v	file:
+pfHexLineNumber	Profile.c	/^static LPCSTR	   pfHexLineNumber		= "HexModeLineNumber";$/;"	v	file:
+pfHexMode	Profile.c	/^static LPCSTR	   pfHexMode			= "HexMode";$/;"	v	file:
+pfIgnoreCase	Profile.c	/^static LPCSTR	   pfIgnoreCase			= "IgnoreCase";$/;"	v	file:
+pfLanguage	Profile.c	/^static LPCSTR	   pfLanguage			= "Language";$/;"	v	file:
+pfLcaseFnames	Profile.c	/^static LPCSTR	   pfLcaseFnames		= "LowerCaseFnames";$/;"	v	file:
+pfLineNumber	Profile.c	/^static LPCSTR	   pfLineNumber			= "LineNumber";$/;"	v	file:
+pfMagic	Profile.c	/^static LPCSTR	   pfMagic				= "Magic";$/;"	v	file:
+pfMapping	Profile.c	/^static LPCSTR	   pfMapping			= "MapAbbrev%d";$/;"	v	file:
+pfMappingFlags	Profile.c	/^static LPCSTR	   pfMappingFlags		= "Flags";$/;"	v	file:
+pfMappingInput	Profile.c	/^static LPCSTR	   pfMappingInput		= "Input";$/;"	v	file:
+pfMappingName	Profile.c	/^static LPCSTR	   pfMappingName		= "DisplayName";$/;"	v	file:
+pfMappingReplace	Profile.c	/^static LPCSTR	   pfMappingReplace		= "Replace";$/;"	v	file:
+pfMaxScroll	Profile.c	/^static LPCSTR	   pfMaxScroll			= "MaxScroll";$/;"	v	file:
+pfMaximized	Profile.c	/^static LPCSTR	   pfMaximized			= "Maximized";$/;"	v	file:
+pfNewline	Profile.c	/^static LPCSTR	   pfNewline			= "Newline";$/;"	v	file:
+pfOemCodePage	Profile.c	/^static LPCSTR	   pfOemCodePage		= "OemCodePage";$/;"	v	file:
+pfPageThreshold	Profile.c	/^static LPCSTR	   pfPageThreshold		= "PageThreshold";$/;"	v	file:
+pfPrintBorderBottom	Profile.c	/^static LPCSTR	   pfPrintBorderBottom	= "PrintBorderBottom";$/;"	v	file:
+pfPrintBorderLeft	Profile.c	/^static LPCSTR	   pfPrintBorderLeft	= "PrintBorderLeft";$/;"	v	file:
+pfPrintBorderRight	Profile.c	/^static LPCSTR	   pfPrintBorderRight	= "PrintBorderRight";$/;"	v	file:
+pfPrintBorderTop	Profile.c	/^static LPCSTR	   pfPrintBorderTop		= "PrintBorderTop";$/;"	v	file:
+pfPrintFontAttr	Profile.c	/^static LPCSTR	   pfPrintFontAttr		= "PrintFontAttributes";$/;"	v	file:
+pfPrintFontCharSet	Profile.c	/^static LPCSTR	   pfPrintFontCharSet	= "PrintFontCharSet";$/;"	v	file:
+pfPrintFontFace	Profile.c	/^static LPCSTR	   pfPrintFontFace		= "PrintFontFace";$/;"	v	file:
+pfPrintFontSize1	Profile.c	/^static LPCSTR	   pfPrintFontSize1		= "PrintFontSize1";$/;"	v	file:
+pfPrintFontSize2	Profile.c	/^static LPCSTR	   pfPrintFontSize2		= "PrintFontSize2";$/;"	v	file:
+pfPrintFooter	Profile.c	/^static LPCSTR	   pfPrintFooter		= "PrintFooter";$/;"	v	file:
+pfPrintFrame	Profile.c	/^static LPCSTR	   pfPrintFrame			= "PrintFrame";$/;"	v	file:
+pfPrintFrame2	Profile.c	/^static LPCSTR	   pfPrintFrame2		= "PrintFrame2";$/;"	v	file:
+pfPrintFrame3	Profile.c	/^static LPCSTR	   pfPrintFrame3		= "PrintFrame3";$/;"	v	file:
+pfPrintHeader	Profile.c	/^static LPCSTR	   pfPrintHeader		= "PrintHeader";$/;"	v	file:
+pfPrintNumbers	Profile.c	/^static LPCSTR	   pfPrintNumbers		= "PrintNumbers";$/;"	v	file:
+pfPrintOrientation	Profile.c	/^static LPCSTR	   pfPrintOrientation	= "PrintOrientation";$/;"	v	file:
+pfQuitIfMore	Profile.c	/^static LPCSTR	   pfQuitIfMore			= "QuitIfMoreFiles";$/;"	v	file:
+pfReadOnly	Profile.c	/^static LPCSTR	   pfReadOnly			= "ReadOnly";$/;"	v	file:
+pfRecentDir	Profile.c	/^static LPCSTR	   pfRecentDir			= "RecentDir%d";$/;"	v	file:
+pfRecentFile	Profile.c	/^static LPCSTR	   pfRecentFile			= "RecentFile%d";$/;"	v	file:
+pfRecentFiles	Profile.c	/^static LPCSTR	   pfRecentFiles		= "RecentFiles";$/;"	v	file:
+pfRefreshBkgnd	Profile.c	/^static LPCSTR	   pfRefreshBkgnd		= "RefreshBackground";$/;"	v	file:
+pfSearchBoxX	Profile.c	/^static LPCSTR	   pfSearchBoxX			= "SearchBox-X";$/;"	v	file:
+pfSearchBoxY	Profile.c	/^static LPCSTR	   pfSearchBoxY			= "SearchBox-Y";$/;"	v	file:
+pfSelBkColor	Profile.c	/^static LPCSTR	   pfSelBkColor			= "SelectedBackground";$/;"	v	file:
+pfSelFgColor	Profile.c	/^static LPCSTR	   pfSelFgColor			= "SelectedText";$/;"	v	file:
+pfShell	Profile.c	/^static LPCSTR	   pfShell				= "Shell";$/;"	v	file:
+pfShellCommand	Profile.c	/^static LPCSTR	   pfShellCommand		= "ShellCommand";$/;"	v	file:
+pfShiftWidth	Profile.c	/^static LPCSTR	   pfShiftWidth			= "ShiftWidth";$/;"	v	file:
+pfShmBkColor	Profile.c	/^static LPCSTR	   pfShmBkColor			= "ShowMatchBackground";$/;"	v	file:
+pfShmFgColor	Profile.c	/^static LPCSTR	   pfShmFgColor			= "ShowMatchText";$/;"	v	file:
+pfShowMatch	Profile.c	/^static LPCSTR	   pfShowMatch			= "ShowMatch";$/;"	v	file:
+pfTabExpWithSlash	Profile.c	/^static LPCSTR	   pfTabExpWithSlash	= "TabExpandWithSlash";$/;"	v	file:
+pfTabExpandDomains	Profile.c	/^	static LPCSTR  pfTabExpandDomains	= "TabExpandDomains";$/;"	v	file:
+pfTabStop	Profile.c	/^static LPCSTR	   pfTabStop			= "TabStop";$/;"	v	file:
+pfTags	Profile.c	/^static LPCSTR	   pfTags				= "Tags";$/;"	v	file:
+pfTerse	Profile.c	/^static LPCSTR	   pfTerse				= "Terse";$/;"	v	file:
+pfTmpDirectory	Profile.c	/^static LPCSTR	   pfTmpDirectory		= "TmpDirectory";$/;"	v	file:
+pfUndoLimit	Profile.c	/^static LPCSTR	   pfUndoLimit			= "UndoLimit";$/;"	v	file:
+pfWidth	Profile.c	/^static LPCSTR	   pfWidth				= "Width";$/;"	v	file:
+pfWindowTitle	Profile.c	/^static LPCSTR	   pfWindowTitle		= "WindowTitle";$/;"	v	file:
+pfWrapPos	Profile.c	/^static LPCSTR	   pfWrapPos			= "WrapPos";$/;"	v	file:
+pfWrapScan	Profile.c	/^static LPCSTR	   pfWrapScan			= "WrapScan";$/;"	v	file:
+pfXPos	Profile.c	/^static LPCSTR	   pfXPos 				= "X-Position";$/;"	v	file:
+pfYPos	Profile.c	/^static LPCSTR	   pfYPos 				= "Y-Position";$/;"	v	file:
+pfoDoubleColumn	Profile.c	/^static LPCSTR	   pfoDoubleColumn		= "DoubleColumn";$/;"	v	file:
+pfoLandscape	Profile.c	/^static LPCSTR	   pfoLandscape			= "Landscape";$/;"	v	file:
+pfoPortrait	Profile.c	/^static LPCSTR	   pfoPortrait			= "Portrait";$/;"	v	file:
+pfwDrivePathUNC	Profile.c	/^static PCWSTR	   pfwDrivePathUNC		= L"ActivateDrivePathUNC";$/;"	v	file:
+pfwExtensions	Profile.c	/^static PCWSTR	   pfwExtensions		= L"ActivateExtensions";$/;"	v	file:
+pi	Exec.c	/^static PROCESS_INFORMATION pi;$/;"	v	file:
+pszText	TabCtrl.h	/^	LPSTR  pszText;$/;"	m	struct:tagTC_ITEM
+sBkgndBmp	Bmp.c	/^static BITMAP	sBkgndBmp[2];$/;"	v	file:
+snprintf	SnPrintf.c	/^int snprintf(char *buf, const size_t size, const char *format, ...)$/;"	f
+tagFILELIST	FileList.c	/^typedef struct tagFILELIST {$/;"	s	file:
+tagMAP	Map.h	/^typedef struct tagMAP {$/;"	s
+tagNMHDR	TabCtrl.h	/^  typedef struct tagNMHDR {$/;"	s
+tagPAGE	Page.h	/^typedef struct tagPAGE {$/;"	s
+tagPOPUPLIST	PathExp.c	/^typedef struct tagPOPUPLIST {$/;"	s	file:
+tagPOSITION	Page.h	/^typedef struct tagPOSITION {$/;"	s
+tagREDO	Input.c	/^typedef struct tagREDO {$/;"	s	file:
+tagREPLIST	WinVi.h	/^typedef struct tagREPLIST {$/;"	s
+tagSEARCHPART	Search.c	/^typedef struct tagSEARCHPART {$/;"	s	file:
+tagSEARCH_DESCR	Search.c	/^typedef struct tagSEARCH_DESCR {$/;"	s	file:
+tagSTATUSSTYLE	Status.h	/^typedef struct tagSTATUSSTYLE {$/;"	s
+tagTABSHEET	Settings.c	/^struct tagTABSHEET {$/;"	s	file:
+tagTAGSTACK	Tags.c	/^typedef struct tagTAGSTACK {$/;"	s	file:
+tagTC_ITEM	TabCtrl.h	/^  typedef struct tagTC_ITEM {$/;"	s
+tagUNDO	Undo.c	/^typedef struct tagUNDO {$/;"	s	file:
+tm	Print.c	/^TEXTMETRIC tm;$/;"	v
+u	Search.c	/^	} u;$/;"	m	struct:tagSEARCHPART	file:
+wUseSysColors	Externs.c	/^WORD	 wUseSysColors;		\/*1:Bg, 2:Fg, 4:SelBg, 8:SelFg, 512:StatusFg*\/$/;"	v
+wcsicmp	WinVi.h	72;"	d
+wmemchr	Search.c	/^wchar_t* wmemchr(const wchar_t *s, wchar_t c, size_t n)$/;"	f
+x	Status.h	/^	INT	  x, Width;$/;"	m
+x	WinVi.c	/^INT    x = 40, y = 60, Width = 687, Height = 500;$/;"	v
+xOffset	Paint.c	/^LONG	   xOffset;$/;"	v
+xPos	ToolBar.c	/^	INT   Id, xPos, Width;$/;"	m	file:
+xx	Page.c	261;"	d	file:
+xx	Page.c	296;"	d	file:
+xxx	Page.c	299;"	d	file:
+xxx	Page.c	334;"	d	file:
+y	WinVi.c	/^INT    x = 40, y = 60, Width = 687, Height = 500;$/;"	v
+yButtonOffset	Externs.c	/^int		yButtonOffset, nToolbarHeight;$/;"	v

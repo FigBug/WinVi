@@ -1,0 +1,4 @@
+#!/bin/sh
+cd ..
+make -f MinGWobj/Makefile $*
+cd MinGWobj
