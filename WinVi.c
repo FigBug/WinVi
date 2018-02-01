@@ -1946,7 +1946,7 @@ INT WINAPI WinMain(HINST hCurr, HINST hPrev, LPSTR lpCmd, INT nShow)
 	Ctl3dRegister(hInst);
 	Ctl3dAutoSubclass(hInst);
 	#if defined(WIN32)
-		InitCommonControls();
+		InitCommonControlsEx(NULL);
 	#endif
 	HelpContext = HelpEditTextmode;
 	if ((!hPrev && !InitApplication()) || !InitInstance(nShow)) Ret = 1;
